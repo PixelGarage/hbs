@@ -564,7 +564,7 @@ body.coacollege_section #zone-menu-wrapper {
   top: 40px;
   padding: 20px 0;
   /* 2 normal columns wide */
-  width: 468px;
+  width: 470px;
   z-index: 30;
 }
 #block-menu-block-1 ul li ul.menu li a {
@@ -593,7 +593,7 @@ body.coacollege_section #zone-menu-wrapper {
   display: block;
   position: static;
   /* normal column width with border*/
-  width: 234px;
+  width: 235px;
   padding: 0;
 }
 #block-menu-block-1 ul li.menu-mlid-986 {
@@ -622,12 +622,12 @@ body.coacollege_section #zone-menu-wrapper {
 }
 #block-menu-block-1 ul li.menu-mlid-986 ul.menu li,
 #block-menu-block-1 ul li.menu-mlid-986 ul.menu li.double .view-content {
-  width: 233px;
+  width: 234px;
   border-right: 1px solid #e12524;
 }
 #block-menu-block-1 ul li.menu-mlid-986 ul.menu li a:hover,
 #block-menu-block-1 ul li.menu-mlid-986 ul.menu li.double .view-content a:hover {
-  color: #dd1f1e;
+  color: #ef8b8b;
 }
 #block-menu-block-1 ul li.menu-mlid-987 {
   /* Handelsschule top-menu background */
@@ -655,12 +655,12 @@ body.coacollege_section #zone-menu-wrapper {
 }
 #block-menu-block-1 ul li.menu-mlid-987 ul.menu li,
 #block-menu-block-1 ul li.menu-mlid-987 ul.menu li.double .view-content {
-  width: 233px;
+  width: 234px;
   border-right: 1px solid #e12524;
 }
 #block-menu-block-1 ul li.menu-mlid-987 ul.menu li a:hover,
 #block-menu-block-1 ul li.menu-mlid-987 ul.menu li.double .view-content a:hover {
-  color: #dd1f1e;
+  color: #ef8b8b;
 }
 #block-menu-block-1 ul li.menu-mlid-988 {
   /* Kaderschule top-menu background */
@@ -688,7 +688,7 @@ body.coacollege_section #zone-menu-wrapper {
 }
 #block-menu-block-1 ul li.menu-mlid-988 ul.menu li,
 #block-menu-block-1 ul li.menu-mlid-988 ul.menu li.double .view-content {
-  width: 233px;
+  width: 234px;
   border-right: 1px solid #0084c1;
 }
 #block-menu-block-1 ul li.menu-mlid-988 ul.menu li a:hover,
@@ -721,7 +721,7 @@ body.coacollege_section #zone-menu-wrapper {
 }
 #block-menu-block-1 ul li.menu-mlid-989 ul.menu li,
 #block-menu-block-1 ul li.menu-mlid-989 ul.menu li.double .view-content {
-  width: 233px;
+  width: 234px;
   border-right: 1px solid #0084c1;
 }
 #block-menu-block-1 ul li.menu-mlid-989 ul.menu li a:hover,
@@ -754,12 +754,12 @@ body.coacollege_section #zone-menu-wrapper {
 }
 #block-menu-block-1 ul li.menu-mlid-3048 ul.menu li,
 #block-menu-block-1 ul li.menu-mlid-3048 ul.menu li.double .view-content {
-  width: 233px;
+  width: 234px;
   border-right: 1px solid #e12524;
 }
 #block-menu-block-1 ul li.menu-mlid-3048 ul.menu li a:hover,
 #block-menu-block-1 ul li.menu-mlid-3048 ul.menu li.double .view-content a:hover {
-  color: #dd1f1e;
+  color: #ef8b8b;
 }
 #block-menu-block-1 ul li.menu-mlid-3216 {
   /* Sprachen top-menu background */
@@ -787,12 +787,12 @@ body.coacollege_section #zone-menu-wrapper {
 }
 #block-menu-block-1 ul li.menu-mlid-3216 ul.menu li,
 #block-menu-block-1 ul li.menu-mlid-3216 ul.menu li.double .view-content {
-  width: 233px;
+  width: 234px;
   border-right: 1px solid #e12524;
 }
 #block-menu-block-1 ul li.menu-mlid-3216 ul.menu li a:hover,
 #block-menu-block-1 ul li.menu-mlid-3216 ul.menu li.double .view-content a:hover {
-  color: #e64847;
+  color: #ef8b8b;
 }
 #block-menu-block-1 ul li.menu-mlid-3218 {
   /* Junior top-menu background */
@@ -816,16 +816,16 @@ body.coacollege_section #zone-menu-wrapper {
 #block-menu-block-1 ul li.menu-mlid-3218 ul.menu {
   /* Submenu position under top menu */
   background: #e33231;
-  left: -468px;
+  left: -290px;
 }
 #block-menu-block-1 ul li.menu-mlid-3218 ul.menu li,
 #block-menu-block-1 ul li.menu-mlid-3218 ul.menu li.double .view-content {
-  width: 233px;
+  width: 234px;
   border-right: 1px solid #e12524;
 }
 #block-menu-block-1 ul li.menu-mlid-3218 ul.menu li a:hover,
 #block-menu-block-1 ul li.menu-mlid-3218 ul.menu li.double .view-content a:hover {
-  color: #e64847;
+  color: #ef8b8b;
 }
 #block-menu-block-1 ul li.menu-mlid-3219 {
   /* Coaching top-menu background */
@@ -849,16 +849,16 @@ body.coacollege_section #zone-menu-wrapper {
 #block-menu-block-1 ul li.menu-mlid-3219 ul.menu {
   /* Submenu position under top menu */
   background: #e33231;
-  left: -467px;
+  left: -325px;
 }
 #block-menu-block-1 ul li.menu-mlid-3219 ul.menu li,
 #block-menu-block-1 ul li.menu-mlid-3219 ul.menu li.double .view-content {
-  width: 233px;
+  width: 234px;
   border-right: 1px solid #e12524;
 }
 #block-menu-block-1 ul li.menu-mlid-3219 ul.menu li a:hover,
 #block-menu-block-1 ul li.menu-mlid-3219 ul.menu li.double .view-content a:hover {
-  color: #e64847;
+  color: #ef8b8b;
 }
 #block-menu-block-1 ul li.menu-mlid-3124 {
   /* placeholder to center 2nd menu row */
@@ -876,7 +876,7 @@ body.coacollege_section #zone-menu-wrapper {
 #block-menu-block-1 li.double .view-content,
 #block-menu-block-1 li.double .view-content-right {
   float: left;
-  width: 233px;
+  width: 234px;
 }
 #block-menu-block-1 li.double .view-content-right {
   /* aligns top of sub-columns */
@@ -913,7 +913,6 @@ body.coacollege_section #zone-menu-wrapper {
   #block-menu-block-1 ul li {
     width: 175px;
     /* medium size menu */
-    border-right: 1px solid #fff4f4;
   }
   /* place dropdown arrow for medium sized top menus */
   #block-menu-block-1 ul li a {
@@ -924,8 +923,6 @@ body.coacollege_section #zone-menu-wrapper {
   #block-menu-block-1 ul li.menu-mlid-988 ul.menu.double,
   #block-menu-block-1 ul li.menu-mlid-989 ul.menu,
   #block-menu-block-1 ul li.menu-mlid-989 ul.menu.double,
-  #block-menu-block-1 ul li.menu-mlid-3216 ul.menu,
-  #block-menu-block-1 ul li.menu-mlid-3216 ul.menu.double,
   #block-menu-block-1 ul li.menu-mlid-3218 ul.menu,
   #block-menu-block-1 ul li.menu-mlid-3218 ul.menu.double,
   #block-menu-block-1 ul li.menu-mlid-3219 ul.menu,
@@ -940,9 +937,8 @@ body.coacollege_section #zone-menu-wrapper {
    *  Block Menu styling
    */
   #block-menu-block-1 ul li {
-    width: 234px;
+    width: 235px;
     /* width of 1 column */
-    border-right: 1px solid #fff4f4;
   }
   /* Arrow of top menus */
   #block-menu-block-1 ul li a {
@@ -951,43 +947,51 @@ body.coacollege_section #zone-menu-wrapper {
   }
   /* define normal sized menus width and position */
   #block-menu-block-1 ul li ul.menu {
-    width: 702px;
+    width: 705px;
     /* 3 columns */
   }
   #block-menu-block-1 ul li ul.menu.double {
-    width: 936px !important;
+    width: 940px !important;
     /* 4 columns */
   }
   #block-menu-block-1 li.double {
     width: 469px !important;
   }
   #block-menu-block-1 ul li.menu-mlid-988 ul.menu {
-    left: -234px;
+    left: -235px;
     /* left-shift second last menu, so that menu starts with second top menu  */
   }
   #block-menu-block-1 ul li.menu-mlid-988 ul.menu.double {
-    left: -468px;
+    left: -470px;
     /* left-shift second last double menu, so that menu starts with first top menu  */
   }
   #block-menu-block-1 ul li.menu-mlid-989 ul.menu {
-    left: -468px;
+    left: -470px;
     /* left-shift last menu, so that menu ends with last top menu  */
   }
   #block-menu-block-1 ul li.menu-mlid-989 ul.menu.double {
-    left: -702px;
+    left: -705px;
     /* left-shift last double menu, so that menu ends with last top menu  */
   }
-  #block-menu-block-1 ul li.menu-mlid-3049 ul.menu {
-    left: -234px;
-    /* left-shift second last menu, so that menu starts with second top menu  */
+  #block-menu-block-1 ul li.menu-mlid-3218 ul.menu {
+    left: -235px;
+    /* left-shift last menu, so that menu ends with last top menu  */
+  }
+  #block-menu-block-1 ul li.menu-mlid-3218 ul.menu.double {
+    left: -470px;
+    /* left-shift last double menu, so that menu ends with last top menu  */
+  }
+  #block-menu-block-1 ul li.menu-mlid-3219 ul.menu {
+    left: -470px;
+    /* left-shift last menu, so that menu ends with last top menu  */
+  }
+  #block-menu-block-1 ul li.menu-mlid-3219 ul.menu.double {
+    left: -705px;
+    /* left-shift last double menu, so that menu ends with last top menu  */
   }
   /* display first menu column (output from view) in normal sized menus */
   #block-menu-block-1 ul li ul.menu li.menu-views {
     display: block;
-  }
-  /* No right border for specific menus */
-  #block-menu-block-1 ul li.menu-mlid-989 {
-    border-right: none !important!;
   }
 }
 /*

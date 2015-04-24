@@ -10,7 +10,7 @@
 @medium-column-width: 175px; //115px;
 @medium-column-width-wb: @medium-column-width+1;
 
-@column-width: 233px; // 155px;
+@column-width: 234px; // 155px;
 @column-width-with-border: @column-width+1;
 
 
@@ -240,11 +240,11 @@
       }
       &.menu-mlid-3218 {
         /* Junior top-menu background */
-        .main-menu-item(@hso-junior, @hso-junior-hover, @hso-junior-hover-dark, @left-shift: -468px);
+        .main-menu-item(@hso-junior, @hso-junior-hover, @hso-junior-hover-dark, @left-shift: -290px);
       }
       &.menu-mlid-3219 {
         /* Coaching top-menu background */
-        .main-menu-item(@hso-coaching, @hso-coaching-hover, @hso-coaching-hover-dark, @left-shift: -467px);
+        .main-menu-item(@hso-coaching, @hso-coaching-hover, @hso-coaching-hover-dark, @left-shift: -325px);
       }
       &.menu-mlid-3124 {
         /* placeholder to center 2nd menu row */
@@ -312,8 +312,6 @@
 @media @narrow {
   #block-menu-block-1 ul li {
     width: @medium-column-width;     /* medium size menu */
-    border-right: 1px solid #fff4f4;
-
   }
 
   /* place dropdown arrow for medium sized top menus */
@@ -325,8 +323,6 @@
   #block-menu-block-1 ul li.menu-mlid-988 ul.menu.double,
   #block-menu-block-1 ul li.menu-mlid-989 ul.menu,
   #block-menu-block-1 ul li.menu-mlid-989 ul.menu.double,
-  #block-menu-block-1 ul li.menu-mlid-3216 ul.menu,
-  #block-menu-block-1 ul li.menu-mlid-3216 ul.menu.double,
   #block-menu-block-1 ul li.menu-mlid-3218 ul.menu,
   #block-menu-block-1 ul li.menu-mlid-3218 ul.menu.double,
   #block-menu-block-1 ul li.menu-mlid-3219 ul.menu,
@@ -342,8 +338,6 @@
    */
   #block-menu-block-1 ul li {
     width: @column-width-with-border;   /* width of 1 column */
-    border-right: 1px solid #fff4f4;
-
   }
 
   /* Arrow of top menus */
@@ -374,18 +368,22 @@
   #block-menu-block-1 ul li.menu-mlid-989 ul.menu.double {
     left: -3 * @column-width-with-border;   /* left-shift last double menu, so that menu ends with last top menu  */
   }
-  #block-menu-block-1 ul li.menu-mlid-3049 ul.menu {
-    left: -@column-width-with-border; /* left-shift second last menu, so that menu starts with second top menu  */
+  #block-menu-block-1 ul li.menu-mlid-3218 ul.menu {
+    left: -@column-width-with-border;   /* left-shift last menu, so that menu ends with last top menu  */
+  }
+  #block-menu-block-1 ul li.menu-mlid-3218 ul.menu.double {
+    left: -2 * @column-width-with-border;   /* left-shift last double menu, so that menu ends with last top menu  */
+  }
+  #block-menu-block-1 ul li.menu-mlid-3219 ul.menu {
+    left: -2 * @column-width-with-border;   /* left-shift last menu, so that menu ends with last top menu  */
+  }
+  #block-menu-block-1 ul li.menu-mlid-3219 ul.menu.double {
+    left: -3 * @column-width-with-border;   /* left-shift last double menu, so that menu ends with last top menu  */
   }
 
   /* display first menu column (output from view) in normal sized menus */
   #block-menu-block-1 ul li ul.menu li.menu-views {
     display: block;
-  }
-
-  /* No right border for specific menus */
-  #block-menu-block-1 ul li.menu-mlid-989 {
-    border-right: none !important!;
   }
 
 }
