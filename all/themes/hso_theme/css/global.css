@@ -34,25 +34,31 @@ body.responsive-layout-narrow .container-12 .grid-8#region-preface-first {
 }
 #page {
   min-width: 640px;
-  border-top: 4px solid #7c1d19;
+  border-top: 4px solid #631615;
 }
 body.kvcollege_section #page {
-  border-top-color: #94ba40;
+  border-top-color: #e33231;
 }
 body.hscollege_section #page {
-  border-top-color: #e77431;
+  border-top-color: #e33231;
 }
 body.kscollege_section #page {
-  border-top-color: #78729e;
+  border-top-color: #008fd0;
 }
 body.excollege_section #page {
-  border-top-color: #b1a896;
+  border-top-color: #008fd0;
 }
-body.lccollege_section #page {
-  border-top-color: #009251;
+body.infcollege_section #page {
+  border-top-color: #e33231;
 }
 body.langcollege_section #page {
-  border-top-color: #005799;
+  border-top-color: #e33231;
+}
+body.juncollege_section #page {
+  border-top-color: #e33231;
+}
+body.coacollege_section #page {
+  border-top-color: #e33231;
 }
 #section-content {
   position: relative;
@@ -360,7 +366,7 @@ body.excollege_section .node-segment-sidebar-block .content a:hover {
 #block-menu-block-4 ul li a.active,
 #block-menu-block-3 ul li a:hover,
 #block-menu-block-4 ul li a:hover {
-  color: #7c1d19;
+  color: #631615;
 }
 #block-menu-block-3 ul li.first a,
 #block-menu-block-4 ul li.first a {
@@ -457,25 +463,31 @@ body.responsive-layout-mobile #region-branding #menu_appended.hover .wrapper #bl
  * --------------------------------------------------*/
 #zone-menu-wrapper {
   position: relative;
-  background: #7c1d19;
+  background: #631615;
 }
 body.kvcollege_section #zone-menu-wrapper {
-  background: #94ba40;
+  background: #e33231;
 }
 body.hscollege_section #zone-menu-wrapper {
-  background: #e77431;
+  background: #e33231;
 }
 body.kscollege_section #zone-menu-wrapper {
-  background: #78729e;
+  background: #008fd0;
 }
 body.excollege_section #zone-menu-wrapper {
-  background: #b1a896;
+  background: #008fd0;
 }
-body.lccollege_section #zone-menu-wrapper {
-  background: #009251;
+body.infcollege_section #zone-menu-wrapper {
+  background: #e33231;
 }
 body.langcollege_section #zone-menu-wrapper {
-  background: #005799;
+  background: #e33231;
+}
+body.juncollege_section #zone-menu-wrapper {
+  background: #e33231;
+}
+body.coacollege_section #zone-menu-wrapper {
+  background: #e33231;
 }
 #section-header.fixed_position {
   padding-bottom: 40px;
@@ -552,7 +564,7 @@ body.langcollege_section #zone-menu-wrapper {
   top: 40px;
   padding: 20px 0;
   /* 2 normal columns wide */
-  width: 470px;
+  width: 468px;
   z-index: 30;
 }
 #block-menu-block-1 ul li ul.menu li a {
@@ -581,206 +593,272 @@ body.langcollege_section #zone-menu-wrapper {
   display: block;
   position: static;
   /* normal column width with border*/
-  width: 235px;
+  width: 234px;
   padding: 0;
 }
 #block-menu-block-1 ul li.menu-mlid-986 {
   /* KV Kollege top-menu background (normal, hovered) */
 }
 #block-menu-block-1 ul li.menu-mlid-986 a {
-  background-color: #94ba40;
+  background-color: #e33231;
 }
 #block-menu-block-1 ul li.menu-mlid-986 a span.arrow {
-  border-top-color: #94ba40;
+  border-top-color: #e33231;
 }
 #block-menu-block-1 ul li.menu-mlid-986 a.active-trail,
 #block-menu-block-1 ul li.menu-mlid-986.touch_hover a,
 #block-menu-block-1 ul li.menu-mlid-986:hover a {
-  background-color: #89ab3b;
+  background-color: #e12524;
 }
 #block-menu-block-1 ul li.menu-mlid-986 a.active-trail span.arrow,
 #block-menu-block-1 ul li.menu-mlid-986.touch_hover a span.arrow,
 #block-menu-block-1 ul li.menu-mlid-986:hover a span.arrow {
-  border-top-color: #89ab3b;
+  border-top-color: #e12524;
 }
 #block-menu-block-1 ul li.menu-mlid-986 ul.menu {
   /* Submenu position under top menu */
-  background: #94ba40;
+  background: #e33231;
   left: 0px;
 }
 #block-menu-block-1 ul li.menu-mlid-986 ul.menu li,
 #block-menu-block-1 ul li.menu-mlid-986 ul.menu li.double .view-content {
-  width: 234px;
-  border-right: 1px solid #89ab3b;
+  width: 233px;
+  border-right: 1px solid #e12524;
 }
 #block-menu-block-1 ul li.menu-mlid-986 ul.menu li a:hover,
 #block-menu-block-1 ul li.menu-mlid-986 ul.menu li.double .view-content a:hover {
-  color: #5d7820;
+  color: #dd1f1e;
 }
 #block-menu-block-1 ul li.menu-mlid-987 {
   /* Handelsschule top-menu background */
 }
 #block-menu-block-1 ul li.menu-mlid-987 a {
-  background-color: #e77431;
+  background-color: #e33231;
 }
 #block-menu-block-1 ul li.menu-mlid-987 a span.arrow {
-  border-top-color: #e77431;
+  border-top-color: #e33231;
 }
 #block-menu-block-1 ul li.menu-mlid-987 a.active-trail,
 #block-menu-block-1 ul li.menu-mlid-987.touch_hover a,
 #block-menu-block-1 ul li.menu-mlid-987:hover a {
-  background-color: #d76b2d;
+  background-color: #e12524;
 }
 #block-menu-block-1 ul li.menu-mlid-987 a.active-trail span.arrow,
 #block-menu-block-1 ul li.menu-mlid-987.touch_hover a span.arrow,
 #block-menu-block-1 ul li.menu-mlid-987:hover a span.arrow {
-  border-top-color: #d76b2d;
+  border-top-color: #e12524;
 }
 #block-menu-block-1 ul li.menu-mlid-987 ul.menu {
   /* Submenu position under top menu */
-  background: #e77431;
+  background: #e33231;
   left: 0px;
 }
 #block-menu-block-1 ul li.menu-mlid-987 ul.menu li,
 #block-menu-block-1 ul li.menu-mlid-987 ul.menu li.double .view-content {
-  width: 234px;
-  border-right: 1px solid #d76b2d;
+  width: 233px;
+  border-right: 1px solid #e12524;
 }
 #block-menu-block-1 ul li.menu-mlid-987 ul.menu li a:hover,
 #block-menu-block-1 ul li.menu-mlid-987 ul.menu li.double .view-content a:hover {
-  color: #99400d;
+  color: #dd1f1e;
 }
 #block-menu-block-1 ul li.menu-mlid-988 {
   /* Kaderschule top-menu background */
 }
 #block-menu-block-1 ul li.menu-mlid-988 a {
-  background-color: #78729e;
+  background-color: #008fd0;
 }
 #block-menu-block-1 ul li.menu-mlid-988 a span.arrow {
-  border-top-color: #78729e;
+  border-top-color: #008fd0;
 }
 #block-menu-block-1 ul li.menu-mlid-988 a.active-trail,
 #block-menu-block-1 ul li.menu-mlid-988.touch_hover a,
 #block-menu-block-1 ul li.menu-mlid-988:hover a {
-  background-color: #706993;
+  background-color: #0084c1;
 }
 #block-menu-block-1 ul li.menu-mlid-988 a.active-trail span.arrow,
 #block-menu-block-1 ul li.menu-mlid-988.touch_hover a span.arrow,
 #block-menu-block-1 ul li.menu-mlid-988:hover a span.arrow {
-  border-top-color: #706993;
+  border-top-color: #0084c1;
 }
 #block-menu-block-1 ul li.menu-mlid-988 ul.menu {
   /* Submenu position under top menu */
-  background: #78729e;
+  background: #008fd0;
   left: -290px;
 }
 #block-menu-block-1 ul li.menu-mlid-988 ul.menu li,
 #block-menu-block-1 ul li.menu-mlid-988 ul.menu li.double .view-content {
-  width: 234px;
-  border-right: 1px solid #706993;
+  width: 233px;
+  border-right: 1px solid #0084c1;
 }
 #block-menu-block-1 ul li.menu-mlid-988 ul.menu li a:hover,
 #block-menu-block-1 ul li.menu-mlid-988 ul.menu li.double .view-content a:hover {
-  color: #454166;
+  color: #006c9d;
 }
 #block-menu-block-1 ul li.menu-mlid-989 {
   /* Executive top-menu background */
 }
 #block-menu-block-1 ul li.menu-mlid-989 a {
-  background-color: #b1a896;
+  background-color: #008fd0;
 }
 #block-menu-block-1 ul li.menu-mlid-989 a span.arrow {
-  border-top-color: #b1a896;
+  border-top-color: #008fd0;
 }
 #block-menu-block-1 ul li.menu-mlid-989 a.active-trail,
 #block-menu-block-1 ul li.menu-mlid-989.touch_hover a,
 #block-menu-block-1 ul li.menu-mlid-989:hover a {
-  background-color: #a39b88;
+  background-color: #0084c1;
 }
 #block-menu-block-1 ul li.menu-mlid-989 a.active-trail span.arrow,
 #block-menu-block-1 ul li.menu-mlid-989.touch_hover a span.arrow,
 #block-menu-block-1 ul li.menu-mlid-989:hover a span.arrow {
-  border-top-color: #a39b88;
+  border-top-color: #0084c1;
 }
 #block-menu-block-1 ul li.menu-mlid-989 ul.menu {
   /* Submenu position under top menu */
-  background: #b1a896;
+  background: #008fd0;
   left: -325px;
 }
 #block-menu-block-1 ul li.menu-mlid-989 ul.menu li,
 #block-menu-block-1 ul li.menu-mlid-989 ul.menu li.double .view-content {
-  width: 234px;
-  border-right: 1px solid #a39b88;
+  width: 233px;
+  border-right: 1px solid #0084c1;
 }
 #block-menu-block-1 ul li.menu-mlid-989 ul.menu li a:hover,
 #block-menu-block-1 ul li.menu-mlid-989 ul.menu li.double .view-content a:hover {
-  color: #efefef;
+  color: #006c9d;
 }
 #block-menu-block-1 ul li.menu-mlid-3048 {
-  /* Learncoaching top-menu background */
+  /* Informatik top-menu background */
 }
 #block-menu-block-1 ul li.menu-mlid-3048 a {
-  background-color: #009251;
+  background-color: #e33231;
 }
 #block-menu-block-1 ul li.menu-mlid-3048 a span.arrow {
-  border-top-color: #009251;
+  border-top-color: #e33231;
 }
 #block-menu-block-1 ul li.menu-mlid-3048 a.active-trail,
 #block-menu-block-1 ul li.menu-mlid-3048.touch_hover a,
 #block-menu-block-1 ul li.menu-mlid-3048:hover a {
-  background-color: #008349;
+  background-color: #e12524;
 }
 #block-menu-block-1 ul li.menu-mlid-3048 a.active-trail span.arrow,
 #block-menu-block-1 ul li.menu-mlid-3048.touch_hover a span.arrow,
 #block-menu-block-1 ul li.menu-mlid-3048:hover a span.arrow {
-  border-top-color: #008349;
+  border-top-color: #e12524;
 }
 #block-menu-block-1 ul li.menu-mlid-3048 ul.menu {
   /* Submenu position under top menu */
-  background: #009251;
+  background: #e33231;
   left: 0px;
 }
 #block-menu-block-1 ul li.menu-mlid-3048 ul.menu li,
 #block-menu-block-1 ul li.menu-mlid-3048 ul.menu li.double .view-content {
-  width: 234px;
-  border-right: 1px solid #008349;
+  width: 233px;
+  border-right: 1px solid #e12524;
 }
 #block-menu-block-1 ul li.menu-mlid-3048 ul.menu li a:hover,
 #block-menu-block-1 ul li.menu-mlid-3048 ul.menu li.double .view-content a:hover {
-  color: #005f35;
+  color: #dd1f1e;
 }
-#block-menu-block-1 ul li.menu-mlid-3049 {
+#block-menu-block-1 ul li.menu-mlid-3216 {
   /* Sprachen top-menu background */
 }
-#block-menu-block-1 ul li.menu-mlid-3049 a {
-  background-color: #005799;
+#block-menu-block-1 ul li.menu-mlid-3216 a {
+  background-color: #e33231;
 }
-#block-menu-block-1 ul li.menu-mlid-3049 a span.arrow {
-  border-top-color: #005799;
+#block-menu-block-1 ul li.menu-mlid-3216 a span.arrow {
+  border-top-color: #e33231;
 }
-#block-menu-block-1 ul li.menu-mlid-3049 a.active-trail,
-#block-menu-block-1 ul li.menu-mlid-3049.touch_hover a,
-#block-menu-block-1 ul li.menu-mlid-3049:hover a {
-  background-color: #004e8a;
+#block-menu-block-1 ul li.menu-mlid-3216 a.active-trail,
+#block-menu-block-1 ul li.menu-mlid-3216.touch_hover a,
+#block-menu-block-1 ul li.menu-mlid-3216:hover a {
+  background-color: #e12524;
 }
-#block-menu-block-1 ul li.menu-mlid-3049 a.active-trail span.arrow,
-#block-menu-block-1 ul li.menu-mlid-3049.touch_hover a span.arrow,
-#block-menu-block-1 ul li.menu-mlid-3049:hover a span.arrow {
-  border-top-color: #004e8a;
+#block-menu-block-1 ul li.menu-mlid-3216 a.active-trail span.arrow,
+#block-menu-block-1 ul li.menu-mlid-3216.touch_hover a span.arrow,
+#block-menu-block-1 ul li.menu-mlid-3216:hover a span.arrow {
+  border-top-color: #e12524;
 }
-#block-menu-block-1 ul li.menu-mlid-3049 ul.menu {
+#block-menu-block-1 ul li.menu-mlid-3216 ul.menu {
   /* Submenu position under top menu */
-  background: #005799;
-  left: -290px;
+  background: #e33231;
+  left: 0px;
 }
-#block-menu-block-1 ul li.menu-mlid-3049 ul.menu li,
-#block-menu-block-1 ul li.menu-mlid-3049 ul.menu li.double .view-content {
-  width: 234px;
-  border-right: 1px solid #004e8a;
+#block-menu-block-1 ul li.menu-mlid-3216 ul.menu li,
+#block-menu-block-1 ul li.menu-mlid-3216 ul.menu li.double .view-content {
+  width: 233px;
+  border-right: 1px solid #e12524;
 }
-#block-menu-block-1 ul li.menu-mlid-3049 ul.menu li a:hover,
-#block-menu-block-1 ul li.menu-mlid-3049 ul.menu li.double .view-content a:hover {
-  color: #0083e5;
+#block-menu-block-1 ul li.menu-mlid-3216 ul.menu li a:hover,
+#block-menu-block-1 ul li.menu-mlid-3216 ul.menu li.double .view-content a:hover {
+  color: #e64847;
+}
+#block-menu-block-1 ul li.menu-mlid-3218 {
+  /* Junior top-menu background */
+}
+#block-menu-block-1 ul li.menu-mlid-3218 a {
+  background-color: #e33231;
+}
+#block-menu-block-1 ul li.menu-mlid-3218 a span.arrow {
+  border-top-color: #e33231;
+}
+#block-menu-block-1 ul li.menu-mlid-3218 a.active-trail,
+#block-menu-block-1 ul li.menu-mlid-3218.touch_hover a,
+#block-menu-block-1 ul li.menu-mlid-3218:hover a {
+  background-color: #e12524;
+}
+#block-menu-block-1 ul li.menu-mlid-3218 a.active-trail span.arrow,
+#block-menu-block-1 ul li.menu-mlid-3218.touch_hover a span.arrow,
+#block-menu-block-1 ul li.menu-mlid-3218:hover a span.arrow {
+  border-top-color: #e12524;
+}
+#block-menu-block-1 ul li.menu-mlid-3218 ul.menu {
+  /* Submenu position under top menu */
+  background: #e33231;
+  left: -468px;
+}
+#block-menu-block-1 ul li.menu-mlid-3218 ul.menu li,
+#block-menu-block-1 ul li.menu-mlid-3218 ul.menu li.double .view-content {
+  width: 233px;
+  border-right: 1px solid #e12524;
+}
+#block-menu-block-1 ul li.menu-mlid-3218 ul.menu li a:hover,
+#block-menu-block-1 ul li.menu-mlid-3218 ul.menu li.double .view-content a:hover {
+  color: #e64847;
+}
+#block-menu-block-1 ul li.menu-mlid-3219 {
+  /* Coaching top-menu background */
+}
+#block-menu-block-1 ul li.menu-mlid-3219 a {
+  background-color: #e33231;
+}
+#block-menu-block-1 ul li.menu-mlid-3219 a span.arrow {
+  border-top-color: #e33231;
+}
+#block-menu-block-1 ul li.menu-mlid-3219 a.active-trail,
+#block-menu-block-1 ul li.menu-mlid-3219.touch_hover a,
+#block-menu-block-1 ul li.menu-mlid-3219:hover a {
+  background-color: #e12524;
+}
+#block-menu-block-1 ul li.menu-mlid-3219 a.active-trail span.arrow,
+#block-menu-block-1 ul li.menu-mlid-3219.touch_hover a span.arrow,
+#block-menu-block-1 ul li.menu-mlid-3219:hover a span.arrow {
+  border-top-color: #e12524;
+}
+#block-menu-block-1 ul li.menu-mlid-3219 ul.menu {
+  /* Submenu position under top menu */
+  background: #e33231;
+  left: -467px;
+}
+#block-menu-block-1 ul li.menu-mlid-3219 ul.menu li,
+#block-menu-block-1 ul li.menu-mlid-3219 ul.menu li.double .view-content {
+  width: 233px;
+  border-right: 1px solid #e12524;
+}
+#block-menu-block-1 ul li.menu-mlid-3219 ul.menu li a:hover,
+#block-menu-block-1 ul li.menu-mlid-3219 ul.menu li.double .view-content a:hover {
+  color: #e64847;
 }
 #block-menu-block-1 ul li.menu-mlid-3124 {
   /* placeholder to center 2nd menu row */
@@ -798,7 +876,7 @@ body.langcollege_section #zone-menu-wrapper {
 #block-menu-block-1 li.double .view-content,
 #block-menu-block-1 li.double .view-content-right {
   float: left;
-  width: 234px;
+  width: 233px;
 }
 #block-menu-block-1 li.double .view-content-right {
   /* aligns top of sub-columns */
@@ -835,6 +913,7 @@ body.langcollege_section #zone-menu-wrapper {
   #block-menu-block-1 ul li {
     width: 175px;
     /* medium size menu */
+    border-right: 1px solid #fff4f4;
   }
   /* place dropdown arrow for medium sized top menus */
   #block-menu-block-1 ul li a {
@@ -845,6 +924,12 @@ body.langcollege_section #zone-menu-wrapper {
   #block-menu-block-1 ul li.menu-mlid-988 ul.menu.double,
   #block-menu-block-1 ul li.menu-mlid-989 ul.menu,
   #block-menu-block-1 ul li.menu-mlid-989 ul.menu.double,
+  #block-menu-block-1 ul li.menu-mlid-3216 ul.menu,
+  #block-menu-block-1 ul li.menu-mlid-3216 ul.menu.double,
+  #block-menu-block-1 ul li.menu-mlid-3218 ul.menu,
+  #block-menu-block-1 ul li.menu-mlid-3218 ul.menu.double,
+  #block-menu-block-1 ul li.menu-mlid-3219 ul.menu,
+  #block-menu-block-1 ul li.menu-mlid-3219 ul.menu.double,
   #block-menu-block-1 ul li.menu-mlid-3049 ul.menu {
     left: -295px;
     /* left-shift last two menus, so that menu ends with last top menu  */
@@ -855,8 +940,9 @@ body.langcollege_section #zone-menu-wrapper {
    *  Block Menu styling
    */
   #block-menu-block-1 ul li {
-    width: 235px;
+    width: 234px;
     /* width of 1 column */
+    border-right: 1px solid #fff4f4;
   }
   /* Arrow of top menus */
   #block-menu-block-1 ul li a {
@@ -865,39 +951,43 @@ body.langcollege_section #zone-menu-wrapper {
   }
   /* define normal sized menus width and position */
   #block-menu-block-1 ul li ul.menu {
-    width: 705px;
+    width: 702px;
     /* 3 columns */
   }
   #block-menu-block-1 ul li ul.menu.double {
-    width: 940px !important;
+    width: 936px !important;
     /* 4 columns */
   }
   #block-menu-block-1 li.double {
     width: 469px !important;
   }
   #block-menu-block-1 ul li.menu-mlid-988 ul.menu {
-    left: -235px;
+    left: -234px;
     /* left-shift second last menu, so that menu starts with second top menu  */
   }
   #block-menu-block-1 ul li.menu-mlid-988 ul.menu.double {
-    left: -470px;
+    left: -468px;
     /* left-shift second last double menu, so that menu starts with first top menu  */
   }
   #block-menu-block-1 ul li.menu-mlid-989 ul.menu {
-    left: -470px;
+    left: -468px;
     /* left-shift last menu, so that menu ends with last top menu  */
   }
   #block-menu-block-1 ul li.menu-mlid-989 ul.menu.double {
-    left: -705px;
+    left: -702px;
     /* left-shift last double menu, so that menu ends with last top menu  */
   }
   #block-menu-block-1 ul li.menu-mlid-3049 ul.menu {
-    left: -235px;
+    left: -234px;
     /* left-shift second last menu, so that menu starts with second top menu  */
   }
   /* display first menu column (output from view) in normal sized menus */
   #block-menu-block-1 ul li ul.menu li.menu-views {
     display: block;
+  }
+  /* No right border for specific menus */
+  #block-menu-block-1 ul li.menu-mlid-989 {
+    border-right: none !important!;
   }
 }
 /*
@@ -955,7 +1045,7 @@ body.langcollege_section #zone-menu-wrapper {
   line-height: 32px;
   text-align: center;
   text-decoration: none;
-  background: #7c1d19;
+  background: #631615;
 }
 .block-banners-block-1 .banner_pagination,
 .block-banners-block .banner_pagination {
@@ -988,7 +1078,7 @@ body.langcollege_section #zone-menu-wrapper {
 }
 .block-banners-block-1 .banner_pagination li.page.current a,
 .block-banners-block .banner_pagination li.page.current a {
-  background: #7c1d19;
+  background: #631615;
 }
 .block-banners-block-1 .banner_pagination li.pager a.banner_prev,
 .block-banners-block .banner_pagination li.pager a.banner_prev,
@@ -1010,51 +1100,67 @@ body.langcollege_section #zone-menu-wrapper {
 }
 body.kvcollege_section .block-banners-block-1 .banner .views-field-field-banner-links ul li a,
 body.kvcollege_section .block-banners-block .banner .views-field-field-banner-links ul li a {
-  background: #94ba40;
+  background: #e33231;
 }
 body.kvcollege_section .block-banners-block-1 .banner_pagination li.page.current a,
 body.kvcollege_section .block-banners-block .banner_pagination li.page.current a {
-  background: #94ba40;
+  background: #e33231;
 }
 body.hscollege_section .block-banners-block-1 .banner .views-field-field-banner-links ul li a,
 body.hscollege_section .block-banners-block .banner .views-field-field-banner-links ul li a {
-  background: #e77431;
+  background: #e33231;
 }
 body.hscollege_section .block-banners-block-1 .banner_pagination li.page.current a,
 body.hscollege_section .block-banners-block .banner_pagination li.page.current a {
-  background: #e77431;
+  background: #e33231;
 }
 body.kscollege_section .block-banners-block-1 .banner .views-field-field-banner-links ul li a,
 body.kscollege_section .block-banners-block .banner .views-field-field-banner-links ul li a {
-  background: #78729e;
+  background: #008fd0;
 }
 body.kscollege_section .block-banners-block-1 .banner_pagination li.page.current a,
 body.kscollege_section .block-banners-block .banner_pagination li.page.current a {
-  background: #78729e;
+  background: #008fd0;
 }
 body.excollege_section .block-banners-block-1 .banner .views-field-field-banner-links ul li a,
 body.excollege_section .block-banners-block .banner .views-field-field-banner-links ul li a {
-  background: #b1a896;
+  background: #008fd0;
 }
 body.excollege_section .block-banners-block-1 .banner_pagination li.page.current a,
 body.excollege_section .block-banners-block .banner_pagination li.page.current a {
-  background: #b1a896;
+  background: #008fd0;
 }
-body.lccollege_section .block-banners-block-1 .banner .views-field-field-banner-links ul li a,
-body.lccollege_section .block-banners-block .banner .views-field-field-banner-links ul li a {
-  background: #009251;
+body.infcollege_section .block-banners-block-1 .banner .views-field-field-banner-links ul li a,
+body.infcollege_section .block-banners-block .banner .views-field-field-banner-links ul li a {
+  background: #e33231;
 }
-body.lccollege_section .block-banners-block-1 .banner_pagination li.page.current a,
-body.lccollege_section .block-banners-block .banner_pagination li.page.current a {
-  background: #009251;
+body.infcollege_section .block-banners-block-1 .banner_pagination li.page.current a,
+body.infcollege_section .block-banners-block .banner_pagination li.page.current a {
+  background: #e33231;
 }
 body.langcollege_section .block-banners-block-1 .banner .views-field-field-banner-links ul li a,
 body.langcollege_section .block-banners-block .banner .views-field-field-banner-links ul li a {
-  background: #005799;
+  background: #e33231;
 }
 body.langcollege_section .block-banners-block-1 .banner_pagination li.page.current a,
 body.langcollege_section .block-banners-block .banner_pagination li.page.current a {
-  background: #005799;
+  background: #e33231;
+}
+body.juncollege_section .block-banners-block-1 .banner .views-field-field-banner-links ul li a,
+body.juncollege_section .block-banners-block .banner .views-field-field-banner-links ul li a {
+  background: #e33231;
+}
+body.juncollege_section .block-banners-block-1 .banner_pagination li.page.current a,
+body.juncollege_section .block-banners-block .banner_pagination li.page.current a {
+  background: #e33231;
+}
+body.coacollege_section .block-banners-block-1 .banner .views-field-field-banner-links ul li a,
+body.coacollege_section .block-banners-block .banner .views-field-field-banner-links ul li a {
+  background: #e33231;
+}
+body.coacollege_section .block-banners-block-1 .banner_pagination li.page.current a,
+body.coacollege_section .block-banners-block .banner_pagination li.page.current a {
+  background: #e33231;
 }
 /*
  *  Course content type
@@ -1096,82 +1202,108 @@ body.node-type-course #region-sidebar-second {
   border-bottom: none;
 }
 body.kvcollege_section .node.node-course table.aufeinenblock caption {
-  color: #94ba40;
+  color: #e33231;
 }
 body.kvcollege_section .node.node-course table.aufeinenblock tbody {
-  border-bottom-color: #94ba40;
-  border-top-color: #94ba40;
+  border-bottom-color: #e33231;
+  border-top-color: #e33231;
 }
 body.kvcollege_section .node.node-course table.aufeinenblock tbody tr th {
-  border-bottom-color: #94ba40;
+  border-bottom-color: #e33231;
 }
 body.kvcollege_section .node.node-course table.aufeinenblock tbody tr td {
-  border-bottom-color: #94ba40;
+  border-bottom-color: #e33231;
 }
 body.hscollege_section .node.node-course table.aufeinenblock caption {
-  color: #e77431;
+  color: #e33231;
 }
 body.hscollege_section .node.node-course table.aufeinenblock tbody {
-  border-bottom-color: #e77431;
-  border-top-color: #e77431;
+  border-bottom-color: #e33231;
+  border-top-color: #e33231;
 }
 body.hscollege_section .node.node-course table.aufeinenblock tbody tr th {
-  border-bottom-color: #e77431;
+  border-bottom-color: #e33231;
 }
 body.hscollege_section .node.node-course table.aufeinenblock tbody tr td {
-  border-bottom-color: #e77431;
+  border-bottom-color: #e33231;
 }
 body.kscollege_section .node.node-course table.aufeinenblock caption {
-  color: #78729e;
+  color: #008fd0;
 }
 body.kscollege_section .node.node-course table.aufeinenblock tbody {
-  border-bottom-color: #78729e;
-  border-top-color: #78729e;
+  border-bottom-color: #008fd0;
+  border-top-color: #008fd0;
 }
 body.kscollege_section .node.node-course table.aufeinenblock tbody tr th {
-  border-bottom-color: #78729e;
+  border-bottom-color: #008fd0;
 }
 body.kscollege_section .node.node-course table.aufeinenblock tbody tr td {
-  border-bottom-color: #78729e;
+  border-bottom-color: #008fd0;
 }
 body.excollege_section .node.node-course table.aufeinenblock caption {
-  color: #b1a896;
+  color: #008fd0;
 }
 body.excollege_section .node.node-course table.aufeinenblock tbody {
-  border-bottom-color: #b1a896;
-  border-top-color: #b1a896;
+  border-bottom-color: #008fd0;
+  border-top-color: #008fd0;
 }
 body.excollege_section .node.node-course table.aufeinenblock tbody tr th {
-  border-bottom-color: #b1a896;
+  border-bottom-color: #008fd0;
 }
 body.excollege_section .node.node-course table.aufeinenblock tbody tr td {
-  border-bottom-color: #b1a896;
+  border-bottom-color: #008fd0;
 }
-body.lccollege_section .node.node-course table.aufeinenblock caption {
-  color: #009251;
+body.infcollege_section .node.node-course table.aufeinenblock caption {
+  color: #e33231;
 }
-body.lccollege_section .node.node-course table.aufeinenblock tbody {
-  border-bottom-color: #009251;
-  border-top-color: #009251;
+body.infcollege_section .node.node-course table.aufeinenblock tbody {
+  border-bottom-color: #e33231;
+  border-top-color: #e33231;
 }
-body.lccollege_section .node.node-course table.aufeinenblock tbody tr th {
-  border-bottom-color: #009251;
+body.infcollege_section .node.node-course table.aufeinenblock tbody tr th {
+  border-bottom-color: #e33231;
 }
-body.lccollege_section .node.node-course table.aufeinenblock tbody tr td {
-  border-bottom-color: #009251;
+body.infcollege_section .node.node-course table.aufeinenblock tbody tr td {
+  border-bottom-color: #e33231;
 }
 body.langcollege_section .node.node-course table.aufeinenblock caption {
-  color: #005799;
+  color: #e33231;
 }
 body.langcollege_section .node.node-course table.aufeinenblock tbody {
-  border-bottom-color: #005799;
-  border-top-color: #005799;
+  border-bottom-color: #e33231;
+  border-top-color: #e33231;
 }
 body.langcollege_section .node.node-course table.aufeinenblock tbody tr th {
-  border-bottom-color: #005799;
+  border-bottom-color: #e33231;
 }
 body.langcollege_section .node.node-course table.aufeinenblock tbody tr td {
-  border-bottom-color: #005799;
+  border-bottom-color: #e33231;
+}
+body.juncollege_section .node.node-course table.aufeinenblock caption {
+  color: #e33231;
+}
+body.juncollege_section .node.node-course table.aufeinenblock tbody {
+  border-bottom-color: #e33231;
+  border-top-color: #e33231;
+}
+body.juncollege_section .node.node-course table.aufeinenblock tbody tr th {
+  border-bottom-color: #e33231;
+}
+body.juncollege_section .node.node-course table.aufeinenblock tbody tr td {
+  border-bottom-color: #e33231;
+}
+body.coacollege_section .node.node-course table.aufeinenblock caption {
+  color: #e33231;
+}
+body.coacollege_section .node.node-course table.aufeinenblock tbody {
+  border-bottom-color: #e33231;
+  border-top-color: #e33231;
+}
+body.coacollege_section .node.node-course table.aufeinenblock tbody tr th {
+  border-bottom-color: #e33231;
+}
+body.coacollege_section .node.node-course table.aufeinenblock tbody tr td {
+  border-bottom-color: #e33231;
 }
 /*
  *  Location content type
@@ -1234,10 +1366,10 @@ body.langcollege_section .node.node-course table.aufeinenblock tbody tr td {
 }
 .node.node-location .content table caption {
   padding-bottom: 5px;
-  color: #7c1d19;
+  color: #631615;
   font-family: 'Soho Gothic W01 Medium', sans-serif;
   font-size: 14px;
-  border-bottom: 2px solid #7c1d19;
+  border-bottom: 2px solid #631615;
 }
 .node.node-location .content table td {
   border-bottom: 1px solid #aeaeae;
@@ -1275,7 +1407,7 @@ body.langcollege_section .node.node-course table.aufeinenblock tbody tr td {
   margin-top: 10px;
 }
 .node-webform form.webform-client-form .form-item a {
-  color: #7c1d19;
+  color: #631615;
 }
 .node-webform form.webform-client-form textarea {
   width: 560px;
@@ -1328,32 +1460,32 @@ body.langcollege_section .node.node-course table.aufeinenblock tbody tr td {
   font-family: 'Soho Gothic W01 Regular', Helvetica, Arial, sans-serif;
   font-size: 14px;
   color: #fff;
-  background: #7c1d19;
+  background: #631615;
   border: none;
 }
 body.kvcollege_section .node-webform form.webform-client-form .form-item a {
-  color: #94ba40;
+  color: #e33231;
 }
 body.kvcollege_section .node-webform form.webform-client-form .form-actions .form-submit {
-  background-color: #94ba40;
+  background-color: #e33231;
 }
 body.hscollege_section .node-webform form.webform-client-form .form-item a {
-  color: #e77431;
+  color: #e33231;
 }
 body.hscollege_section .node-webform form.webform-client-form .form-actions .form-submit {
-  background-color: #e77431;
+  background-color: #e33231;
 }
 body.kscollege_section .node-webform form.webform-client-form .form-item a {
-  color: #78729e;
+  color: #008fd0;
 }
 body.kscollege_section .node-webform form.webform-client-form .form-actions .form-submit {
-  background-color: #78729e;
+  background-color: #008fd0;
 }
 body.excollege_section .node-webform form.webform-client-form .form-item a {
-  color: #b1a896;
+  color: #008fd0;
 }
 body.excollege_section .node-webform form.webform-client-form .form-actions .form-submit {
-  background-color: #b1a896;
+  background-color: #008fd0;
 }
 /*
  *  Segment-block panes (course intro page)
@@ -1364,7 +1496,7 @@ body.excollege_section .node-webform form.webform-client-form .form-actions .for
 }
 .panel-pane.pane-segment-blocks .view-segment-blocks .node.wrapper_lehrgang_links {
   padding: 15px 20px;
-  border-top: 4px solid #7c1d19;
+  border-top: 4px solid #631615;
 }
 .panel-pane.pane-segment-blocks .view-segment-blocks .node.wrapper_lehrgang_links h2.node-title {
   font-size: 20px;
@@ -1376,7 +1508,7 @@ body.excollege_section .node-webform form.webform-client-form .form-actions .for
   color: #000;
   line-height: 30px;
   text-decoration: none;
-  border-bottom: 2px solid #7c1d19;
+  border-bottom: 2px solid #631615;
 }
 .panel-pane.pane-segment-blocks .view-segment-blocks .node.wrapper_lehrgang_links .content table.lehrgang_links td.first a {
   margin-right: 20px;
@@ -1426,97 +1558,129 @@ body.excollege_section .node-webform form.webform-client-form .form-actions .for
   background-position: 0 -25px;
 }
 body.kvcollege_section .panel-pane.pane-segment-blocks .view-segment-blocks .node.wrapper_lehrgang_links {
-  border-top-color: #94ba40;
-  background: #e5edc4;
+  border-top-color: #e33231;
+  background: #f5b8b8;
 }
 body.kvcollege_section .panel-pane.pane-segment-blocks .view-segment-blocks .node.wrapper_lehrgang_links h2.node-title {
-  color: #94ba40;
+  color: #e33231;
 }
 body.kvcollege_section .panel-pane.pane-segment-blocks .view-segment-blocks .node.wrapper_lehrgang_links .content table.lehrgang_links td a {
-  border-bottom-color: #94ba40;
+  border-bottom-color: #e33231;
 }
 body.kvcollege_section .panel-pane.pane-segment-blocks .view-segment-blocks .node.wrapper_lehrgang_links .content table.lehrgang_links td a:hover {
-  background-color: #c4d890;
+  background-color: #f8cece;
 }
 body.kvcollege_section .panel-pane.pane-segment-blocks .view-segment-blocks .node.wrapper-links-witercho {
   background-image: url(../images/wo_befindest_kv.jpg);
 }
 body.hscollege_section .panel-pane.pane-segment-blocks .view-segment-blocks .node.wrapper_lehrgang_links {
-  border-top-color: #e77431;
-  background: #fae4d7;
+  border-top-color: #e33231;
+  background: #f5b8b8;
 }
 body.hscollege_section .panel-pane.pane-segment-blocks .view-segment-blocks .node.wrapper_lehrgang_links h2.node-title {
-  color: #e77431;
+  color: #e33231;
 }
 body.hscollege_section .panel-pane.pane-segment-blocks .view-segment-blocks .node.wrapper_lehrgang_links .content table.lehrgang_links td a {
-  border-bottom-color: #e77431;
+  border-bottom-color: #e33231;
 }
 body.hscollege_section .panel-pane.pane-segment-blocks .view-segment-blocks .node.wrapper_lehrgang_links .content table.lehrgang_links td a:hover {
-  background-color: #f3b793;
+  background-color: #f8cece;
 }
 body.hscollege_section .panel-pane.pane-segment-blocks .view-segment-blocks .node.wrapper-links-witercho {
   background-image: url(../images/wo_befindest_hs.jpg);
 }
 body.kscollege_section .panel-pane.pane-segment-blocks .view-segment-blocks .node.wrapper_lehrgang_links {
-  border-top-color: #78729e;
-  background: #e6e4ef;
+  border-top-color: #008fd0;
+  background: #9de0ff;
 }
 body.kscollege_section .panel-pane.pane-segment-blocks .view-segment-blocks .node.wrapper_lehrgang_links h2.node-title {
-  color: #78729e;
+  color: #008fd0;
 }
 body.kscollege_section .panel-pane.pane-segment-blocks .view-segment-blocks .node.wrapper_lehrgang_links .content table.lehrgang_links td a {
-  border-bottom-color: #78729e;
+  border-bottom-color: #008fd0;
 }
 body.kscollege_section .panel-pane.pane-segment-blocks .view-segment-blocks .node.wrapper_lehrgang_links .content table.lehrgang_links td a:hover {
-  background-color: #b0aec6;
+  background-color: #b7e8ff;
 }
 body.kscollege_section .panel-pane.pane-segment-blocks .view-segment-blocks .node.wrapper-links-witercho {
   background-image: url(../images/wo_befindest.jpg);
 }
 body.excollege_section .panel-pane.pane-segment-blocks .view-segment-blocks .node.wrapper_lehrgang_links {
-  border-top-color: #b1a896;
-  background: #e7e5de;
+  border-top-color: #008fd0;
+  background: #9de0ff;
 }
 body.excollege_section .panel-pane.pane-segment-blocks .view-segment-blocks .node.wrapper_lehrgang_links h2.node-title {
-  color: #b1a896;
+  color: #008fd0;
 }
 body.excollege_section .panel-pane.pane-segment-blocks .view-segment-blocks .node.wrapper_lehrgang_links .content table.lehrgang_links td a {
-  border-bottom-color: #b1a896;
+  border-bottom-color: #008fd0;
 }
 body.excollege_section .panel-pane.pane-segment-blocks .view-segment-blocks .node.wrapper_lehrgang_links .content table.lehrgang_links td a:hover {
-  background-color: #ccc7bd;
+  background-color: #b7e8ff;
 }
 body.excollege_section .panel-pane.pane-segment-blocks .view-segment-blocks .node.wrapper-links-witercho {
   background-image: url(../images/wo_befindest_ex.jpg);
 }
-body.lccollege_section .panel-pane.pane-segment-blocks .view-segment-blocks .node.wrapper_lehrgang_links {
-  border-top-color: #009251;
-  background: #c5ffe5;
+body.infcollege_section .panel-pane.pane-segment-blocks .view-segment-blocks .node.wrapper_lehrgang_links {
+  border-top-color: #e33231;
+  background: #f5b8b8;
 }
-body.lccollege_section .panel-pane.pane-segment-blocks .view-segment-blocks .node.wrapper_lehrgang_links h2.node-title {
-  color: #009251;
+body.infcollege_section .panel-pane.pane-segment-blocks .view-segment-blocks .node.wrapper_lehrgang_links h2.node-title {
+  color: #e33231;
 }
-body.lccollege_section .panel-pane.pane-segment-blocks .view-segment-blocks .node.wrapper_lehrgang_links .content table.lehrgang_links td a {
-  border-bottom-color: #009251;
+body.infcollege_section .panel-pane.pane-segment-blocks .view-segment-blocks .node.wrapper_lehrgang_links .content table.lehrgang_links td a {
+  border-bottom-color: #e33231;
 }
-body.lccollege_section .panel-pane.pane-segment-blocks .view-segment-blocks .node.wrapper_lehrgang_links .content table.lehrgang_links td a:hover {
-  background-color: #acffda;
+body.infcollege_section .panel-pane.pane-segment-blocks .view-segment-blocks .node.wrapper_lehrgang_links .content table.lehrgang_links td a:hover {
+  background-color: #f8cece;
 }
-body.lccollege_section .panel-pane.pane-segment-blocks .view-segment-blocks .node.wrapper-links-witercho {
+body.infcollege_section .panel-pane.pane-segment-blocks .view-segment-blocks .node.wrapper-links-witercho {
   background-image: url(../images/wo_befindest_ex.jpg);
 }
 body.langcollege_section .panel-pane.pane-segment-blocks .view-segment-blocks .node.wrapper_lehrgang_links {
-  border-top-color: #005799;
-  background: #cce9ff;
+  border-top-color: #e33231;
+  background: #f5b8b8;
 }
 body.langcollege_section .panel-pane.pane-segment-blocks .view-segment-blocks .node.wrapper_lehrgang_links h2.node-title {
-  color: #005799;
+  color: #e33231;
 }
 body.langcollege_section .panel-pane.pane-segment-blocks .view-segment-blocks .node.wrapper_lehrgang_links .content table.lehrgang_links td a {
-  border-bottom-color: #005799;
+  border-bottom-color: #e33231;
 }
 body.langcollege_section .panel-pane.pane-segment-blocks .view-segment-blocks .node.wrapper_lehrgang_links .content table.lehrgang_links td a:hover {
-  background-color: #b3deff;
+  background-color: #f8cece;
+}
+body.langcollege_section .panel-pane.pane-segment-blocks .view-segment-blocks .node.wrapper-links-witercho {
+  background-image: url(../images/wo_befindest_ex.jpg);
+}
+body.langcollege_section .panel-pane.pane-segment-blocks .view-segment-blocks .node.wrapper_lehrgang_links {
+  border-top-color: #e33231;
+  background: #f5b8b8;
+}
+body.langcollege_section .panel-pane.pane-segment-blocks .view-segment-blocks .node.wrapper_lehrgang_links h2.node-title {
+  color: #e33231;
+}
+body.langcollege_section .panel-pane.pane-segment-blocks .view-segment-blocks .node.wrapper_lehrgang_links .content table.lehrgang_links td a {
+  border-bottom-color: #e33231;
+}
+body.langcollege_section .panel-pane.pane-segment-blocks .view-segment-blocks .node.wrapper_lehrgang_links .content table.lehrgang_links td a:hover {
+  background-color: #f8cece;
+}
+body.langcollege_section .panel-pane.pane-segment-blocks .view-segment-blocks .node.wrapper-links-witercho {
+  background-image: url(../images/wo_befindest_ex.jpg);
+}
+body.langcollege_section .panel-pane.pane-segment-blocks .view-segment-blocks .node.wrapper_lehrgang_links {
+  border-top-color: #e33231;
+  background: #f5b8b8;
+}
+body.langcollege_section .panel-pane.pane-segment-blocks .view-segment-blocks .node.wrapper_lehrgang_links h2.node-title {
+  color: #e33231;
+}
+body.langcollege_section .panel-pane.pane-segment-blocks .view-segment-blocks .node.wrapper_lehrgang_links .content table.lehrgang_links td a {
+  border-bottom-color: #e33231;
+}
+body.langcollege_section .panel-pane.pane-segment-blocks .view-segment-blocks .node.wrapper_lehrgang_links .content table.lehrgang_links td a:hover {
+  background-color: #f8cece;
 }
 body.langcollege_section .panel-pane.pane-segment-blocks .view-segment-blocks .node.wrapper-links-witercho {
   background-image: url(../images/wo_befindest_ex.jpg);
@@ -1697,142 +1861,188 @@ body.langcollege_section .panel-pane.pane-segment-blocks .view-segment-blocks .n
   border-left: 2px solid #b2b2b2;
 }
 body.kvcollege_section .panel-pane.pane-course-intros .pane-title {
-  color: #94ba40;
-  border-bottom-color: #94ba40;
+  color: #e33231;
+  border-bottom-color: #e33231;
 }
 body.kvcollege_section .panel-pane.pane-course-intros .view-course-intros .ui-tabs {
   background: transparent url(../images/kv_bg_tabs.jpg) no-repeat 0 1px;
 }
 body.kvcollege_section .panel-pane.pane-course-intros .view-course-intros .ui-tabs .tab_scroll .ui-tabs-nav li {
-  background: none #94ba40;
+  background: none #e33231;
 }
 body.kvcollege_section .panel-pane.pane-course-intros .view-course-intros .ui-tabs .tab_scroll .ui-tabs-nav li.ui-tabs-selected a {
-  color: #94ba40;
+  color: #e33231;
   background-color: #fff;
 }
 body.kvcollege_section .panel-pane.pane-course-intros .view-course-intros .views-field-field-teaser-tabs .item-list ul.scrollable li .more_details a {
-  background: #94ba40;
+  background: #e33231;
 }
 body.kvcollege_section .panel-pane.pane-course-intros .view-course-intros .views-field-field-teaser-tabs .item-list .teasertabs_links a {
   background-image: url(../images/kv_teaser_tabs_pager.png);
 }
 body.kvcollege_section .panel-pane.pane-course-intros .view-course-intros .views-field-field-teaser-tabs .item-list .teasertabs_links a:hover {
-  color: #94ba40;
+  color: #e33231;
 }
 body.hscollege_section .panel-pane.pane-course-intros .pane-title {
-  color: #e77431;
-  border-bottom-color: #e77431;
+  color: #e33231;
+  border-bottom-color: #e33231;
 }
 body.hscollege_section .panel-pane.pane-course-intros .view-course-intros .ui-tabs {
   background: transparent url(../images/hs_bg_tabs.jpg) no-repeat 0 1px;
 }
 body.hscollege_section .panel-pane.pane-course-intros .view-course-intros .ui-tabs .tab_scroll .ui-tabs-nav li {
-  background: none #e77431;
+  background: none #e33231;
 }
 body.hscollege_section .panel-pane.pane-course-intros .view-course-intros .ui-tabs .tab_scroll .ui-tabs-nav li.ui-tabs-selected a {
-  color: #e77431;
+  color: #e33231;
   background-color: #fff;
 }
 body.hscollege_section .panel-pane.pane-course-intros .view-course-intros .views-field-field-teaser-tabs .item-list ul.scrollable li .more_details a {
-  background: #e77431;
+  background: #e33231;
 }
 body.hscollege_section .panel-pane.pane-course-intros .view-course-intros .views-field-field-teaser-tabs .item-list .teasertabs_links a {
   background-image: url(../images/hs_teaser_tabs_pager.png);
 }
 body.hscollege_section .panel-pane.pane-course-intros .view-course-intros .views-field-field-teaser-tabs .item-list .teasertabs_links a:hover {
-  color: #e77431;
+  color: #e33231;
 }
 body.kscollege_section .panel-pane.pane-course-intros .pane-title {
-  color: #78729e;
-  border-bottom-color: #78729e;
+  color: #008fd0;
+  border-bottom-color: #008fd0;
 }
 body.kscollege_section .panel-pane.pane-course-intros .view-course-intros .ui-tabs {
   background: transparent url(../images/ks_bg_tabs.jpg) no-repeat 0 1px;
 }
 body.kscollege_section .panel-pane.pane-course-intros .view-course-intros .ui-tabs .tab_scroll .ui-tabs-nav li {
-  background: none #78729e;
+  background: none #008fd0;
 }
 body.kscollege_section .panel-pane.pane-course-intros .view-course-intros .ui-tabs .tab_scroll .ui-tabs-nav li.ui-tabs-selected a {
-  color: #78729e;
+  color: #008fd0;
   background-color: #fff;
 }
 body.kscollege_section .panel-pane.pane-course-intros .view-course-intros .views-field-field-teaser-tabs .item-list ul.scrollable li .more_details a {
-  background: #78729e;
+  background: #008fd0;
 }
 body.kscollege_section .panel-pane.pane-course-intros .view-course-intros .views-field-field-teaser-tabs .item-list .teasertabs_links a {
   background-image: url(../images/ks_teaser_tabs_pager.png);
 }
 body.kscollege_section .panel-pane.pane-course-intros .view-course-intros .views-field-field-teaser-tabs .item-list .teasertabs_links a:hover {
-  color: #78729e;
+  color: #008fd0;
 }
 body.excollege_section .panel-pane.pane-course-intros .pane-title {
-  color: #b1a896;
-  border-bottom-color: #b1a896;
+  color: #008fd0;
+  border-bottom-color: #008fd0;
 }
 body.excollege_section .panel-pane.pane-course-intros .view-course-intros .ui-tabs {
   background: transparent url(../images/ex_bg_tabs.jpg) no-repeat 0 1px;
 }
 body.excollege_section .panel-pane.pane-course-intros .view-course-intros .ui-tabs .tab_scroll .ui-tabs-nav li {
-  background: none #b1a896;
+  background: none #008fd0;
 }
 body.excollege_section .panel-pane.pane-course-intros .view-course-intros .ui-tabs .tab_scroll .ui-tabs-nav li.ui-tabs-selected a {
-  color: #b1a896;
+  color: #008fd0;
   background-color: #fff;
 }
 body.excollege_section .panel-pane.pane-course-intros .view-course-intros .views-field-field-teaser-tabs .item-list ul.scrollable li .more_details a {
-  background: #b1a896;
+  background: #008fd0;
 }
 body.excollege_section .panel-pane.pane-course-intros .view-course-intros .views-field-field-teaser-tabs .item-list .teasertabs_links a {
   background-image: url(../images/ex_teaser_tabs_pager.png);
 }
 body.excollege_section .panel-pane.pane-course-intros .view-course-intros .views-field-field-teaser-tabs .item-list .teasertabs_links a:hover {
-  color: #b1a896;
+  color: #008fd0;
 }
-body.lccollege_section .panel-pane.pane-course-intros .pane-title {
-  color: #009251;
-  border-bottom-color: #009251;
+body.infocollege_section .panel-pane.pane-course-intros .pane-title {
+  color: #e33231;
+  border-bottom-color: #e33231;
 }
-body.lccollege_section .panel-pane.pane-course-intros .view-course-intros .ui-tabs {
+body.infocollege_section .panel-pane.pane-course-intros .view-course-intros .ui-tabs {
   background: transparent url(../images/lc_bg_tabs.png) no-repeat 0 1px;
 }
-body.lccollege_section .panel-pane.pane-course-intros .view-course-intros .ui-tabs .tab_scroll .ui-tabs-nav li {
-  background: none #009251;
+body.infocollege_section .panel-pane.pane-course-intros .view-course-intros .ui-tabs .tab_scroll .ui-tabs-nav li {
+  background: none #e33231;
 }
-body.lccollege_section .panel-pane.pane-course-intros .view-course-intros .ui-tabs .tab_scroll .ui-tabs-nav li.ui-tabs-selected a {
-  color: #009251;
+body.infocollege_section .panel-pane.pane-course-intros .view-course-intros .ui-tabs .tab_scroll .ui-tabs-nav li.ui-tabs-selected a {
+  color: #e33231;
   background-color: #fff;
 }
-body.lccollege_section .panel-pane.pane-course-intros .view-course-intros .views-field-field-teaser-tabs .item-list ul.scrollable li .more_details a {
-  background: #009251;
+body.infocollege_section .panel-pane.pane-course-intros .view-course-intros .views-field-field-teaser-tabs .item-list ul.scrollable li .more_details a {
+  background: #e33231;
 }
-body.lccollege_section .panel-pane.pane-course-intros .view-course-intros .views-field-field-teaser-tabs .item-list .teasertabs_links a {
+body.infocollege_section .panel-pane.pane-course-intros .view-course-intros .views-field-field-teaser-tabs .item-list .teasertabs_links a {
   background-image: url(../images/ex_teaser_tabs_pager.png);
 }
-body.lccollege_section .panel-pane.pane-course-intros .view-course-intros .views-field-field-teaser-tabs .item-list .teasertabs_links a:hover {
-  color: #009251;
+body.infocollege_section .panel-pane.pane-course-intros .view-course-intros .views-field-field-teaser-tabs .item-list .teasertabs_links a:hover {
+  color: #e33231;
 }
 body.langcollege_section .panel-pane.pane-course-intros .pane-title {
-  color: #005799;
-  border-bottom-color: #005799;
+  color: #e33231;
+  border-bottom-color: #e33231;
 }
 body.langcollege_section .panel-pane.pane-course-intros .view-course-intros .ui-tabs {
   background: transparent url(../images/lang_bg_tabs.png) no-repeat 0 1px;
 }
 body.langcollege_section .panel-pane.pane-course-intros .view-course-intros .ui-tabs .tab_scroll .ui-tabs-nav li {
-  background: none #005799;
+  background: none #e33231;
 }
 body.langcollege_section .panel-pane.pane-course-intros .view-course-intros .ui-tabs .tab_scroll .ui-tabs-nav li.ui-tabs-selected a {
-  color: #005799;
+  color: #e33231;
   background-color: #fff;
 }
 body.langcollege_section .panel-pane.pane-course-intros .view-course-intros .views-field-field-teaser-tabs .item-list ul.scrollable li .more_details a {
-  background: #005799;
+  background: #e33231;
 }
 body.langcollege_section .panel-pane.pane-course-intros .view-course-intros .views-field-field-teaser-tabs .item-list .teasertabs_links a {
   background-image: url(../images/ex_teaser_tabs_pager.png);
 }
 body.langcollege_section .panel-pane.pane-course-intros .view-course-intros .views-field-field-teaser-tabs .item-list .teasertabs_links a:hover {
-  color: #005799;
+  color: #e33231;
+}
+body.juncollege_section .panel-pane.pane-course-intros .pane-title {
+  color: #e33231;
+  border-bottom-color: #e33231;
+}
+body.juncollege_section .panel-pane.pane-course-intros .view-course-intros .ui-tabs {
+  background: transparent url(../images/lang_bg_tabs.png) no-repeat 0 1px;
+}
+body.juncollege_section .panel-pane.pane-course-intros .view-course-intros .ui-tabs .tab_scroll .ui-tabs-nav li {
+  background: none #e33231;
+}
+body.juncollege_section .panel-pane.pane-course-intros .view-course-intros .ui-tabs .tab_scroll .ui-tabs-nav li.ui-tabs-selected a {
+  color: #e33231;
+  background-color: #fff;
+}
+body.juncollege_section .panel-pane.pane-course-intros .view-course-intros .views-field-field-teaser-tabs .item-list ul.scrollable li .more_details a {
+  background: #e33231;
+}
+body.juncollege_section .panel-pane.pane-course-intros .view-course-intros .views-field-field-teaser-tabs .item-list .teasertabs_links a {
+  background-image: url(../images/ex_teaser_tabs_pager.png);
+}
+body.juncollege_section .panel-pane.pane-course-intros .view-course-intros .views-field-field-teaser-tabs .item-list .teasertabs_links a:hover {
+  color: #e33231;
+}
+body.coacollege_section .panel-pane.pane-course-intros .pane-title {
+  color: #e33231;
+  border-bottom-color: #e33231;
+}
+body.coacollege_section .panel-pane.pane-course-intros .view-course-intros .ui-tabs {
+  background: transparent url(../images/lang_bg_tabs.png) no-repeat 0 1px;
+}
+body.coacollege_section .panel-pane.pane-course-intros .view-course-intros .ui-tabs .tab_scroll .ui-tabs-nav li {
+  background: none #e33231;
+}
+body.coacollege_section .panel-pane.pane-course-intros .view-course-intros .ui-tabs .tab_scroll .ui-tabs-nav li.ui-tabs-selected a {
+  color: #e33231;
+  background-color: #fff;
+}
+body.coacollege_section .panel-pane.pane-course-intros .view-course-intros .views-field-field-teaser-tabs .item-list ul.scrollable li .more_details a {
+  background: #e33231;
+}
+body.coacollege_section .panel-pane.pane-course-intros .view-course-intros .views-field-field-teaser-tabs .item-list .teasertabs_links a {
+  background-image: url(../images/ex_teaser_tabs_pager.png);
+}
+body.coacollege_section .panel-pane.pane-course-intros .view-course-intros .views-field-field-teaser-tabs .item-list .teasertabs_links a:hover {
+  color: #e33231;
 }
 /*
  *  Team Dozenten pane
@@ -1971,40 +2181,52 @@ body.langcollege_section .pane-team-panel-pane-1 .pane-content a.browse {
   text-decoration: none;
 }
 body.kvcollege_section #block-views-courses-block .view-content ul {
-  background: #94ba40;
+  background: #e33231;
 }
 body.kvcollege_section #block-views-courses-block .view-content ul li.views-row:hover {
-  background: #89ab3b;
+  background: #e12524;
 }
 body.hscollege_section #block-views-courses-block .view-content ul {
-  background: #e77431;
+  background: #e33231;
 }
 body.hscollege_section #block-views-courses-block .view-content ul li.views-row:hover {
-  background: #d76b2d;
+  background: #e12524;
 }
 body.kscollege_section #block-views-courses-block .view-content ul {
-  background: #78729e;
+  background: #008fd0;
 }
 body.kscollege_section #block-views-courses-block .view-content ul li.views-row:hover {
-  background: #706993;
+  background: #0084c1;
 }
 body.excollege_section #block-views-courses-block .view-content ul {
-  background: #b1a896;
+  background: #008fd0;
 }
 body.excollege_section #block-views-courses-block .view-content ul li.views-row:hover {
-  background: #a39b88;
+  background: #0084c1;
 }
-body.lccollege_section #block-views-courses-block .view-content ul {
-  background: #009251;
+body.infcollege_section #block-views-courses-block .view-content ul {
+  background: #e33231;
 }
-body.lccollege_section #block-views-courses-block .view-content ul li.views-row:hover {
-  background: #008349;
+body.infcollege_section #block-views-courses-block .view-content ul li.views-row:hover {
+  background: #e12524;
 }
 body.langcollege_section #block-views-courses-block .view-content ul {
-  background: #005799;
+  background: #e33231;
 }
 body.langcollege_section #block-views-courses-block .view-content ul li.views-row:hover {
-  background: #004e8a;
+  background: #e12524;
+}
+body.juncollege_section #block-views-courses-block .view-content ul {
+  background: #e33231;
+}
+body.juncollege_section #block-views-courses-block .view-content ul li.views-row:hover {
+  background: #e12524;
+}
+body.coacollege_section #block-views-courses-block .view-content ul {
+  background: #e33231;
+}
+body.coacollege_section #block-views-courses-block .view-content ul li.views-row:hover {
+  background: #e12524;
 }
 #block-block-3 {
   position: relative;
@@ -2038,10 +2260,16 @@ body.kscollege_section #block-block-3 a.anmelden_button {
 body.excollege_section #block-block-3 a.anmelden_button {
   background-image: url(../images/ex_anmelden.png);
 }
-body.lccollege_section #block-block-3 a.anmelden_button {
+body.infcollege_section #block-block-3 a.anmelden_button {
   background-image: url(../images/lc_anmelden.png);
 }
 body.langcollege_section #block-block-3 a.anmelden_button {
+  background-image: url(../images/lang_anmelden.png);
+}
+body.juncollege_section #block-block-3 a.anmelden_button {
+  background-image: url(../images/lang_anmelden.png);
+}
+body.coacollege_section #block-block-3 a.anmelden_button {
   background-image: url(../images/lang_anmelden.png);
 }
 /*
@@ -2205,10 +2433,10 @@ body.kvcollege_section .view-course-tabs .ui-tabs {
   background: transparent url(../images/kv_bg_tabs.jpg) no-repeat 0 1px;
 }
 body.kvcollege_section .view-course-tabs .ui-tabs .tab_scroll .ui-tabs-nav li {
-  background: none #94ba40;
+  background: none #e33231;
 }
 body.kvcollege_section .view-course-tabs .ui-tabs .tab_scroll .ui-tabs-nav li.ui-tabs-selected a {
-  color: #94ba40;
+  color: #e33231;
   background-color: #fff;
 }
 body.kvcollege_section .view-course-tabs .ui-tabs-panel .anmelden_wrapper .anmelden_button {
@@ -2216,13 +2444,13 @@ body.kvcollege_section .view-course-tabs .ui-tabs-panel .anmelden_wrapper .anmel
   background-size: contain;
 }
 body.kvcollege_section .view-course-tabs #programm table.lektionplan tr th {
-  border-bottom: 4px solid #94ba40;
+  border-bottom: 4px solid #e33231;
 }
 body.kvcollege_section .view-course-tabs #programm table.lektionplan tr td {
-  border-bottom: 1px solid #94ba40;
+  border-bottom: 1px solid #e33231;
 }
 body.kvcollege_section .view-course-tabs #startdaten .view-course-times table thead th {
-  border-bottom: 4px solid #94ba40;
+  border-bottom: 4px solid #e33231;
 }
 body.kvcollege_section .view-course-tabs #startdaten .view-course-times table tbody tr.odd {
   background: #dfeac5;
@@ -2231,16 +2459,16 @@ body.kvcollege_section .view-course-tabs #startdaten .view-course-times table tb
   background: #ecf2dc;
 }
 body.kvcollege_section .view-course-tabs #startdaten .view-course-times table tbody tr .views-field-nothing a {
-  background: #94ba40;
+  background: #e33231;
 }
 body.hscollege_section .view-course-tabs .ui-tabs {
   background: transparent url(../images/hs_bg_tabs.jpg) no-repeat 0 1px;
 }
 body.hscollege_section .view-course-tabs .ui-tabs .tab_scroll .ui-tabs-nav li {
-  background: none #e77431;
+  background: none #e33231;
 }
 body.hscollege_section .view-course-tabs .ui-tabs .tab_scroll .ui-tabs-nav li.ui-tabs-selected a {
-  color: #e77431;
+  color: #e33231;
   background-color: #fff;
 }
 body.hscollege_section .view-course-tabs .ui-tabs-panel .anmelden_wrapper .anmelden_button {
@@ -2248,13 +2476,13 @@ body.hscollege_section .view-course-tabs .ui-tabs-panel .anmelden_wrapper .anmel
   background-size: contain;
 }
 body.hscollege_section .view-course-tabs #programm table.lektionplan tr th {
-  border-bottom: 4px solid #e77431;
+  border-bottom: 4px solid #e33231;
 }
 body.hscollege_section .view-course-tabs #programm table.lektionplan tr td {
-  border-bottom: 1px solid #e77431;
+  border-bottom: 1px solid #e33231;
 }
 body.hscollege_section .view-course-tabs #startdaten .view-course-times table thead th {
-  border-bottom: 4px solid #e77431;
+  border-bottom: 4px solid #e33231;
 }
 body.hscollege_section .view-course-tabs #startdaten .view-course-times table tbody tr.odd {
   background: #ffdbb7;
@@ -2263,16 +2491,16 @@ body.hscollege_section .view-course-tabs #startdaten .view-course-times table tb
   background: #ffe8d3;
 }
 body.hscollege_section .view-course-tabs #startdaten .view-course-times table tbody tr .views-field-nothing a {
-  background: #e77431;
+  background: #e33231;
 }
 body.kscollege_section .view-course-tabs .ui-tabs {
   background: transparent url(../images/ks_bg_tabs.jpg) no-repeat 0 1px;
 }
 body.kscollege_section .view-course-tabs .ui-tabs .tab_scroll .ui-tabs-nav li {
-  background: none #78729e;
+  background: none #008fd0;
 }
 body.kscollege_section .view-course-tabs .ui-tabs .tab_scroll .ui-tabs-nav li.ui-tabs-selected a {
-  color: #78729e;
+  color: #008fd0;
   background-color: #fff;
 }
 body.kscollege_section .view-course-tabs .ui-tabs-panel .anmelden_wrapper .anmelden_button {
@@ -2280,13 +2508,13 @@ body.kscollege_section .view-course-tabs .ui-tabs-panel .anmelden_wrapper .anmel
   background-size: contain;
 }
 body.kscollege_section .view-course-tabs #programm table.lektionplan tr th {
-  border-bottom: 4px solid #78729e;
+  border-bottom: 4px solid #008fd0;
 }
 body.kscollege_section .view-course-tabs #programm table.lektionplan tr td {
-  border-bottom: 1px solid #78729e;
+  border-bottom: 1px solid #008fd0;
 }
 body.kscollege_section .view-course-tabs #startdaten .view-course-times table thead th {
-  border-bottom: 4px solid #78729e;
+  border-bottom: 4px solid #008fd0;
 }
 body.kscollege_section .view-course-tabs #startdaten .view-course-times table tbody tr.odd {
   background: #dfd4e7;
@@ -2295,16 +2523,16 @@ body.kscollege_section .view-course-tabs #startdaten .view-course-times table tb
   background: #ebe4f1;
 }
 body.kscollege_section .view-course-tabs #startdaten .view-course-times table tbody tr .views-field-nothing a {
-  background: #78729e;
+  background: #008fd0;
 }
 body.excollege_section .view-course-tabs .ui-tabs {
   background: transparent url(../images/ex_bg_tabs.jpg) no-repeat 0 1px;
 }
 body.excollege_section .view-course-tabs .ui-tabs .tab_scroll .ui-tabs-nav li {
-  background: none #b1a896;
+  background: none #008fd0;
 }
 body.excollege_section .view-course-tabs .ui-tabs .tab_scroll .ui-tabs-nav li.ui-tabs-selected a {
-  color: #b1a896;
+  color: #008fd0;
   background-color: #fff;
 }
 body.excollege_section .view-course-tabs .ui-tabs-panel .anmelden_wrapper .anmelden_button {
@@ -2312,13 +2540,13 @@ body.excollege_section .view-course-tabs .ui-tabs-panel .anmelden_wrapper .anmel
   background-size: contain;
 }
 body.excollege_section .view-course-tabs #programm table.lektionplan tr th {
-  border-bottom: 4px solid #b1a896;
+  border-bottom: 4px solid #008fd0;
 }
 body.excollege_section .view-course-tabs #programm table.lektionplan tr td {
-  border-bottom: 1px solid #b1a896;
+  border-bottom: 1px solid #008fd0;
 }
 body.excollege_section .view-course-tabs #startdaten .view-course-times table thead th {
-  border-bottom: 4px solid #b1a896;
+  border-bottom: 4px solid #008fd0;
 }
 body.excollege_section .view-course-tabs #startdaten .view-course-times table tbody tr.odd {
   background: #dfdfdf;
@@ -2327,48 +2555,48 @@ body.excollege_section .view-course-tabs #startdaten .view-course-times table tb
   background: #efefef;
 }
 body.excollege_section .view-course-tabs #startdaten .view-course-times table tbody tr .views-field-nothing a {
-  background: #b1a896;
+  background: #008fd0;
 }
-body.lccollege_section .view-course-tabs .ui-tabs {
+body.infcollege_section .view-course-tabs .ui-tabs {
   background: transparent url(../images/lc_bg_tabs.png) no-repeat 0 1px;
 }
-body.lccollege_section .view-course-tabs .ui-tabs .tab_scroll .ui-tabs-nav li {
-  background: none #009251;
+body.infcollege_section .view-course-tabs .ui-tabs .tab_scroll .ui-tabs-nav li {
+  background: none #e33231;
 }
-body.lccollege_section .view-course-tabs .ui-tabs .tab_scroll .ui-tabs-nav li.ui-tabs-selected a {
-  color: #009251;
+body.infcollege_section .view-course-tabs .ui-tabs .tab_scroll .ui-tabs-nav li.ui-tabs-selected a {
+  color: #e33231;
   background-color: #fff;
 }
-body.lccollege_section .view-course-tabs .ui-tabs-panel .anmelden_wrapper .anmelden_button {
+body.infcollege_section .view-course-tabs .ui-tabs-panel .anmelden_wrapper .anmelden_button {
   background: url(../images/lc_anmelden_2.png) no-repeat;
   background-size: contain;
 }
-body.lccollege_section .view-course-tabs #programm table.lektionplan tr th {
-  border-bottom: 4px solid #009251;
+body.infcollege_section .view-course-tabs #programm table.lektionplan tr th {
+  border-bottom: 4px solid #e33231;
 }
-body.lccollege_section .view-course-tabs #programm table.lektionplan tr td {
-  border-bottom: 1px solid #009251;
+body.infcollege_section .view-course-tabs #programm table.lektionplan tr td {
+  border-bottom: 1px solid #e33231;
 }
-body.lccollege_section .view-course-tabs #startdaten .view-course-times table thead th {
-  border-bottom: 4px solid #009251;
+body.infcollege_section .view-course-tabs #startdaten .view-course-times table thead th {
+  border-bottom: 4px solid #e33231;
 }
-body.lccollege_section .view-course-tabs #startdaten .view-course-times table tbody tr.odd {
-  background: #acffda;
+body.infcollege_section .view-course-tabs #startdaten .view-course-times table tbody tr.odd {
+  background: #ffffff;
 }
-body.lccollege_section .view-course-tabs #startdaten .view-course-times table tbody tr.even {
-  background: #dffff1;
+body.infcollege_section .view-course-tabs #startdaten .view-course-times table tbody tr.even {
+  background: #ffffff;
 }
-body.lccollege_section .view-course-tabs #startdaten .view-course-times table tbody tr .views-field-nothing a {
-  background: #009251;
+body.infcollege_section .view-course-tabs #startdaten .view-course-times table tbody tr .views-field-nothing a {
+  background: #e33231;
 }
 body.langcollege_section .view-course-tabs .ui-tabs {
   background: transparent url(../images/lang_bg_tabs.png) no-repeat 0 1px;
 }
 body.langcollege_section .view-course-tabs .ui-tabs .tab_scroll .ui-tabs-nav li {
-  background: none #005799;
+  background: none #e33231;
 }
 body.langcollege_section .view-course-tabs .ui-tabs .tab_scroll .ui-tabs-nav li.ui-tabs-selected a {
-  color: #005799;
+  color: #e33231;
   background-color: #fff;
 }
 body.langcollege_section .view-course-tabs .ui-tabs-panel .anmelden_wrapper .anmelden_button {
@@ -2376,22 +2604,86 @@ body.langcollege_section .view-course-tabs .ui-tabs-panel .anmelden_wrapper .anm
   background-size: contain;
 }
 body.langcollege_section .view-course-tabs #programm table.lektionplan tr th {
-  border-bottom: 4px solid #005799;
+  border-bottom: 4px solid #e33231;
 }
 body.langcollege_section .view-course-tabs #programm table.lektionplan tr td {
-  border-bottom: 1px solid #005799;
+  border-bottom: 1px solid #e33231;
 }
 body.langcollege_section .view-course-tabs #startdaten .view-course-times table thead th {
-  border-bottom: 4px solid #005799;
+  border-bottom: 4px solid #e33231;
 }
 body.langcollege_section .view-course-tabs #startdaten .view-course-times table tbody tr.odd {
-  background: #b3deff;
+  background: #ffffff;
 }
 body.langcollege_section .view-course-tabs #startdaten .view-course-times table tbody tr.even {
-  background: #e5f4ff;
+  background: #ffffff;
 }
 body.langcollege_section .view-course-tabs #startdaten .view-course-times table tbody tr .views-field-nothing a {
-  background: #005799;
+  background: #e33231;
+}
+body.juncollege_section .view-course-tabs .ui-tabs {
+  background: transparent url(../images/lang_bg_tabs.png) no-repeat 0 1px;
+}
+body.juncollege_section .view-course-tabs .ui-tabs .tab_scroll .ui-tabs-nav li {
+  background: none #e33231;
+}
+body.juncollege_section .view-course-tabs .ui-tabs .tab_scroll .ui-tabs-nav li.ui-tabs-selected a {
+  color: #e33231;
+  background-color: #fff;
+}
+body.juncollege_section .view-course-tabs .ui-tabs-panel .anmelden_wrapper .anmelden_button {
+  background: url(../images/lang_anmelden_2.png) no-repeat;
+  background-size: contain;
+}
+body.juncollege_section .view-course-tabs #programm table.lektionplan tr th {
+  border-bottom: 4px solid #e33231;
+}
+body.juncollege_section .view-course-tabs #programm table.lektionplan tr td {
+  border-bottom: 1px solid #e33231;
+}
+body.juncollege_section .view-course-tabs #startdaten .view-course-times table thead th {
+  border-bottom: 4px solid #e33231;
+}
+body.juncollege_section .view-course-tabs #startdaten .view-course-times table tbody tr.odd {
+  background: #ffffff;
+}
+body.juncollege_section .view-course-tabs #startdaten .view-course-times table tbody tr.even {
+  background: #ffffff;
+}
+body.juncollege_section .view-course-tabs #startdaten .view-course-times table tbody tr .views-field-nothing a {
+  background: #e33231;
+}
+body.coacollege_section .view-course-tabs .ui-tabs {
+  background: transparent url(../images/lang_bg_tabs.png) no-repeat 0 1px;
+}
+body.coacollege_section .view-course-tabs .ui-tabs .tab_scroll .ui-tabs-nav li {
+  background: none #e33231;
+}
+body.coacollege_section .view-course-tabs .ui-tabs .tab_scroll .ui-tabs-nav li.ui-tabs-selected a {
+  color: #e33231;
+  background-color: #fff;
+}
+body.coacollege_section .view-course-tabs .ui-tabs-panel .anmelden_wrapper .anmelden_button {
+  background: url(../images/lang_anmelden_2.png) no-repeat;
+  background-size: contain;
+}
+body.coacollege_section .view-course-tabs #programm table.lektionplan tr th {
+  border-bottom: 4px solid #e33231;
+}
+body.coacollege_section .view-course-tabs #programm table.lektionplan tr td {
+  border-bottom: 1px solid #e33231;
+}
+body.coacollege_section .view-course-tabs #startdaten .view-course-times table thead th {
+  border-bottom: 4px solid #e33231;
+}
+body.coacollege_section .view-course-tabs #startdaten .view-course-times table tbody tr.odd {
+  background: #ffffff;
+}
+body.coacollege_section .view-course-tabs #startdaten .view-course-times table tbody tr.even {
+  background: #ffffff;
+}
+body.coacollege_section .view-course-tabs #startdaten .view-course-times table tbody tr .views-field-nothing a {
+  background: #e33231;
 }
 /*
  *  HSO pages tabs (block-5)
@@ -2418,7 +2710,7 @@ body.langcollege_section .view-course-tabs #startdaten .view-course-times table 
   -webkit-border-top-right-radius: 4px;
   border-top-right-radius: 4px;
   border: 1px solid #d3d2ce;
-  background: #7c1d19;
+  background: #631615;
 }
 #block-menu-block-5 ul.menu li a {
   display: block;
@@ -2436,7 +2728,7 @@ body.langcollege_section .view-course-tabs #startdaten .view-course-times table 
 }
 #block-menu-block-5 ul.menu li:hover a,
 #block-menu-block-5 ul.menu li.active a {
-  color: #7c1d19;
+  color: #631615;
 }
 #block-menu-block-5 ul.menu li.menu-mlid-1193 a,
 #block-menu-block-5 ul.menu li.menu-mlid-1195 a,
@@ -2499,13 +2791,13 @@ body.langcollege_section .view-course-tabs #startdaten .view-course-times table 
   text-decoration: none;
   vertical-align: middle;
   border: none;
-  background: #7c1d19;
+  background: #631615;
 }
 .view-course-times-search .view-content table {
   width: 100%;
 }
 .view-course-times-search .view-content table thead th {
-  border-bottom: 4px solid #7c1d19;
+  border-bottom: 4px solid #631615;
   font-family: 'Soho Gothic W01 Medium', sans-serif;
   font-size: 14px;
   padding: 5px 10px 5px 5px;
@@ -2514,7 +2806,7 @@ body.langcollege_section .view-course-tabs #startdaten .view-course-times table 
   color: #000;
 }
 .view-course-times-search .view-content table thead th a:hover {
-  color: #7c1d19;
+  color: #631615;
 }
 .view-course-times-search .view-content table thead th.views-field-segment {
   width: 20%;
@@ -2546,7 +2838,7 @@ body.langcollege_section .view-course-tabs #startdaten .view-course-times table 
   font-family: 'Soho Gothic W01 Regular', Helvetica, Arial, sans-serif;
 }
 .view-course-times-search .view-content table tbody td a:hover {
-  color: #7c1d19;
+  color: #631615;
 }
 .view-course-times-search .view-content table tbody td.views-field-nothing {
   vertical-align: middle;
@@ -2557,7 +2849,7 @@ body.langcollege_section .view-course-tabs #startdaten .view-course-times table 
   line-height: 25px;
   color: #fff;
   text-decoration: none;
-  background: #7c1d19;
+  background: #631615;
 }
 .view-course-times-search .view-content table tbody td.views-field-field-location {
   text-align: center;
@@ -2578,11 +2870,11 @@ body.langcollege_section .view-course-tabs #startdaten .view-course-times table 
   text-decoration: none;
 }
 .view-course-times-search .item-list .pager li a:hover {
-  color: #7c1d19;
+  color: #631615;
   font-weight: normal;
 }
 .view-course-times-search .item-list .pager li.pager-current {
-  color: #7c1d19;
+  color: #631615;
   font-weight: normal;
 }
 .view-course-times-search .item-list .pager li.pager-last,
@@ -2665,7 +2957,7 @@ article.comment .comment-links {
   font-size: 13px;
 }
 article.comment .comment-links a {
-  color: #7c1d19;
+  color: #631615;
 }
 article.comment footer {
   padding: 10px;
@@ -2723,7 +3015,7 @@ article.comment footer .author {
   padding-right: 25px;
 }
 .view.view-team .view-header a:hover {
-  color: #7c1d19;
+  color: #631615;
   font-weight: normal;
 }
 .view.view-team .user_profile {
@@ -2743,7 +3035,7 @@ article.comment footer .author {
   color: #4c4c4c;
 }
 .view.view-team .user_profile .field-name-field-full-name a:hover {
-  color: #7c1d19;
+  color: #631615;
 }
 .view.view-team .user_profile .field-name-field-position-function {
   margin-bottom: 10px;
@@ -2817,11 +3109,11 @@ article.comment footer .author {
   text-decoration: none;
 }
 .view.view-team .pager li a:hover {
-  color: #7c1d19;
+  color: #631615;
   font-weight: normal;
 }
 .view.view-team .pager li.pager-current {
-  color: #7c1d19;
+  color: #631615;
   font-weight: normal;
 }
 .view.view-team .pager li.pager-last,
@@ -3022,7 +3314,7 @@ body.responsive-layout-mobile.front #block-block-2 {
   color: #fff;
   line-height: 20px;
   border-bottom: 1px solid #fff;
-  background: #7c1d19 url(../images/blog_icon.png) no-repeat 12px 18px;
+  background: #631615 url(../images/blog_icon.png) no-repeat 12px 18px;
 }
 #block-views-ber-den-autor-block .view {
   padding: 15px;
@@ -3069,22 +3361,28 @@ body.responsive-layout-mobile.front #block-block-2 {
   font-size: 14px;
 }
 body.kvcollege_section #block-views-ber-den-autor-block h2.block-title {
-  background-color: #94ba40;
+  background-color: #e33231;
 }
 body.hscollege_section #block-views-ber-den-autor-block h2.block-title {
-  background-color: #e77431;
+  background-color: #e33231;
 }
 body.kscollege_section #block-views-ber-den-autor-block h2.block-title {
-  background-color: #78729e;
+  background-color: #008fd0;
 }
 body.excollege_section #block-views-ber-den-autor-block h2.block-title {
-  background-color: #b1a896;
+  background-color: #008fd0;
 }
-body.lccollege_section #block-views-ber-den-autor-block h2.block-title {
-  background-color: #009251;
+body.infcollege_section #block-views-ber-den-autor-block h2.block-title {
+  background-color: #e33231;
 }
 body.langcollege_section #block-views-ber-den-autor-block h2.block-title {
-  background-color: #005799;
+  background-color: #e33231;
+}
+body.juncollege_section #block-views-ber-den-autor-block h2.block-title {
+  background-color: #e33231;
+}
+body.coacollege_section #block-views-ber-den-autor-block h2.block-title {
+  background-color: #e33231;
 }
 /*
  *  Contacts-block component
@@ -3192,12 +3490,12 @@ body.page-node-1428 .block-views-contacts-block-course-contacts {
 }
 body.kvcollege_section #block-views-contacts-block-segment-contacts,
 body.kvcollege_section .block-views-contacts-block-course-contacts {
-  background: #94ba40;
+  background: #e33231;
 }
 body.kvcollege_section #block-views-contacts-block-segment-contacts .content ul.header_links li a,
 body.kvcollege_section .block-views-contacts-block-course-contacts .content ul.header_links li a {
-  color: #b4cb87;
-  background: #89ab3b;
+  color: #631615;
+  background: #e12524;
 }
 body.kvcollege_section #block-views-contacts-block-segment-contacts .content ul.header_links li a.active,
 body.kvcollege_section .block-views-contacts-block-course-contacts .content ul.header_links li a.active {
@@ -3205,12 +3503,12 @@ body.kvcollege_section .block-views-contacts-block-course-contacts .content ul.h
 }
 body.hscollege_section #block-views-contacts-block-segment-contacts,
 body.hscollege_section .block-views-contacts-block-course-contacts {
-  background: #e77431;
+  background: #e33231;
 }
 body.hscollege_section #block-views-contacts-block-segment-contacts .content ul.header_links li a,
 body.hscollege_section .block-views-contacts-block-course-contacts .content ul.header_links li a {
-  color: #e4a27f;
-  background: #d76b2d;
+  color: #631615;
+  background: #e12524;
 }
 body.hscollege_section #block-views-contacts-block-segment-contacts .content ul.header_links li a.active,
 body.hscollege_section .block-views-contacts-block-course-contacts .content ul.header_links li a.active {
@@ -3218,12 +3516,12 @@ body.hscollege_section .block-views-contacts-block-course-contacts .content ul.h
 }
 body.kscollege_section #block-views-contacts-block-segment-contacts,
 body.kscollege_section .block-views-contacts-block-course-contacts {
-  background: #78729e;
+  background: #008fd0;
 }
 body.kscollege_section #block-views-contacts-block-segment-contacts .content ul.header_links li a,
 body.kscollege_section .block-views-contacts-block-course-contacts .content ul.header_links li a {
-  color: #a5a0c0;
-  background: #706993;
+  color: #1e61a3;
+  background: #0084c1;
 }
 body.kscollege_section #block-views-contacts-block-segment-contacts .content ul.header_links li a.active,
 body.kscollege_section .block-views-contacts-block-course-contacts .content ul.header_links li a.active {
@@ -3231,41 +3529,67 @@ body.kscollege_section .block-views-contacts-block-course-contacts .content ul.h
 }
 body.excollege_section #block-views-contacts-block-segment-contacts,
 body.excollege_section .block-views-contacts-block-course-contacts {
-  background: #b1a896;
+  background: #008fd0;
 }
 body.excollege_section #block-views-contacts-block-segment-contacts .content ul.header_links li a,
 body.excollege_section .block-views-contacts-block-course-contacts .content ul.header_links li a {
-  color: #e7e5de;
-  background: #a39b88;
+  color: #1e61a3;
+  background: #0084c1;
 }
 body.excollege_section #block-views-contacts-block-segment-contacts .content ul.header_links li a.active,
 body.excollege_section .block-views-contacts-block-course-contacts .content ul.header_links li a.active {
   color: #fff;
 }
-body.lccollege_section #block-views-contacts-block-segment-contacts,
-body.lccollege_section .block-views-contacts-block-course-contacts {
-  background: #009251;
+body.infcollege_section #block-views-contacts-block-segment-contacts,
+body.infcollege_section .block-views-contacts-block-course-contacts {
+  background: #e33231;
 }
-body.lccollege_section #block-views-contacts-block-segment-contacts .content ul.header_links li a,
-body.lccollege_section .block-views-contacts-block-course-contacts .content ul.header_links li a {
-  color: #e7e5de;
-  background: #008349;
+body.infcollege_section #block-views-contacts-block-segment-contacts .content ul.header_links li a,
+body.infcollege_section .block-views-contacts-block-course-contacts .content ul.header_links li a {
+  color: #631615;
+  background: #e12524;
 }
-body.lccollege_section #block-views-contacts-block-segment-contacts .content ul.header_links li a.active,
-body.lccollege_section .block-views-contacts-block-course-contacts .content ul.header_links li a.active {
+body.infcollege_section #block-views-contacts-block-segment-contacts .content ul.header_links li a.active,
+body.infcollege_section .block-views-contacts-block-course-contacts .content ul.header_links li a.active {
   color: #fff;
 }
 body.langcollege_section #block-views-contacts-block-segment-contacts,
 body.langcollege_section .block-views-contacts-block-course-contacts {
-  background: #005799;
+  background: #e33231;
 }
 body.langcollege_section #block-views-contacts-block-segment-contacts .content ul.header_links li a,
 body.langcollege_section .block-views-contacts-block-course-contacts .content ul.header_links li a {
-  color: #e7e5de;
-  background: #004e8a;
+  color: #631615;
+  background: #e12524;
 }
 body.langcollege_section #block-views-contacts-block-segment-contacts .content ul.header_links li a.active,
 body.langcollege_section .block-views-contacts-block-course-contacts .content ul.header_links li a.active {
+  color: #fff;
+}
+body.juncollege_section #block-views-contacts-block-segment-contacts,
+body.juncollege_section .block-views-contacts-block-course-contacts {
+  background: #e33231;
+}
+body.juncollege_section #block-views-contacts-block-segment-contacts .content ul.header_links li a,
+body.juncollege_section .block-views-contacts-block-course-contacts .content ul.header_links li a {
+  color: #631615;
+  background: #e12524;
+}
+body.juncollege_section #block-views-contacts-block-segment-contacts .content ul.header_links li a.active,
+body.juncollege_section .block-views-contacts-block-course-contacts .content ul.header_links li a.active {
+  color: #fff;
+}
+body.coacollege_section #block-views-contacts-block-segment-contacts,
+body.coacollege_section .block-views-contacts-block-course-contacts {
+  background: #e33231;
+}
+body.coacollege_section #block-views-contacts-block-segment-contacts .content ul.header_links li a,
+body.coacollege_section .block-views-contacts-block-course-contacts .content ul.header_links li a {
+  color: #631615;
+  background: #e12524;
+}
+body.coacollege_section #block-views-contacts-block-segment-contacts .content ul.header_links li a.active,
+body.coacollege_section .block-views-contacts-block-course-contacts .content ul.header_links li a.active {
   color: #fff;
 }
 /*
@@ -3549,7 +3873,7 @@ body.langcollege_section .block-views-contacts-block-course-contacts .content ul
   color: #fff;
   text-align: center;
   border: none;
-  background: #7c1d19;
+  background: #631615;
 }
 /*
  *  Footer menu component
@@ -3592,5 +3916,5 @@ body.langcollege_section .block-views-contacts-block-course-contacts .content ul
 }
 #region-footer-second #block-menu-block-2 ul li a.active,
 #region-footer-second #block-menu-block-2 ul li a:hover {
-  color: #7c1d19;
+  color: #631615;
 }

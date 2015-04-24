@@ -10,7 +10,7 @@
 @medium-column-width: 175px; //115px;
 @medium-column-width-wb: @medium-column-width+1;
 
-@column-width: 234px; // 155px;
+@column-width: 233px; // 155px;
 @column-width-with-border: @column-width+1;
 
 
@@ -77,11 +77,17 @@
   body.excollege_section & {
     background: @hso-executive;
   }
-  body.lccollege_section & {
-    background: @hso-learncoach;
+  body.infcollege_section & {
+    background: @hso-informatik;
   }
   body.langcollege_section & {
     background: @hso-sprachen;
+  }
+  body.juncollege_section & {
+    background: @hso-junior;
+  }
+  body.coacollege_section & {
+    background: @hso-coaching;
   }
 }
 
@@ -223,13 +229,22 @@
         /* Executive top-menu background */
         .main-menu-item(@hso-executive, @hso-executive-hover, @hso-executive-hover-dark, @left-shift: -325px);
       }
+
       &.menu-mlid-3048 {
-        /* Learncoaching top-menu background */
-        .main-menu-item(@hso-learncoach, @hso-learncoach-hover, @hso-learncoach-hover-dark, @left-shift: 0px);
+        /* Informatik top-menu background */
+        .main-menu-item(@hso-informatik, @hso-informatik-hover, @hso-informatik-hover-dark, @left-shift: 0px);
       }
-      &.menu-mlid-3049 {
+      &.menu-mlid-3216 {
         /* Sprachen top-menu background */
-        .main-menu-item(@hso-sprachen, @hso-sprachen-hover, @hso-sprachen-hover-dark, @left-shift: -290px);
+        .main-menu-item(@hso-sprachen, @hso-sprachen-hover, @hso-sprachen-hover-dark, @left-shift: 0px);
+      }
+      &.menu-mlid-3218 {
+        /* Junior top-menu background */
+        .main-menu-item(@hso-junior, @hso-junior-hover, @hso-junior-hover-dark, @left-shift: -468px);
+      }
+      &.menu-mlid-3219 {
+        /* Coaching top-menu background */
+        .main-menu-item(@hso-coaching, @hso-coaching-hover, @hso-coaching-hover-dark, @left-shift: -467px);
       }
       &.menu-mlid-3124 {
         /* placeholder to center 2nd menu row */
@@ -297,6 +312,8 @@
 @media @narrow {
   #block-menu-block-1 ul li {
     width: @medium-column-width;     /* medium size menu */
+    border-right: 1px solid #fff4f4;
+
   }
 
   /* place dropdown arrow for medium sized top menus */
@@ -308,10 +325,15 @@
   #block-menu-block-1 ul li.menu-mlid-988 ul.menu.double,
   #block-menu-block-1 ul li.menu-mlid-989 ul.menu,
   #block-menu-block-1 ul li.menu-mlid-989 ul.menu.double,
+  #block-menu-block-1 ul li.menu-mlid-3216 ul.menu,
+  #block-menu-block-1 ul li.menu-mlid-3216 ul.menu.double,
+  #block-menu-block-1 ul li.menu-mlid-3218 ul.menu,
+  #block-menu-block-1 ul li.menu-mlid-3218 ul.menu.double,
+  #block-menu-block-1 ul li.menu-mlid-3219 ul.menu,
+  #block-menu-block-1 ul li.menu-mlid-3219 ul.menu.double,
   #block-menu-block-1 ul li.menu-mlid-3049 ul.menu {
     left: -295px;   /* left-shift last two menus, so that menu ends with last top menu  */
   }
-
 }
 
 @media @normal {
@@ -320,6 +342,8 @@
    */
   #block-menu-block-1 ul li {
     width: @column-width-with-border;   /* width of 1 column */
+    border-right: 1px solid #fff4f4;
+
   }
 
   /* Arrow of top menus */
@@ -357,6 +381,11 @@
   /* display first menu column (output from view) in normal sized menus */
   #block-menu-block-1 ul li ul.menu li.menu-views {
     display: block;
+  }
+
+  /* No right border for specific menus */
+  #block-menu-block-1 ul li.menu-mlid-989 {
+    border-right: none !important!;
   }
 
 }

@@ -106,11 +106,17 @@
   body.excollege_section & {
     .specific-courses-view(@hso-executive; @hso-executive-hover);
   }
-  body.lccollege_section & {
-    .specific-courses-view(@hso-learncoach; @hso-learncoach-hover);
+  body.infcollege_section & {
+    .specific-courses-view(@hso-informatik; @hso-informatik-hover);
   }
   body.langcollege_section & {
     .specific-courses-view(@hso-sprachen; @hso-sprachen-hover);
+  }
+  body.juncollege_section & {
+    .specific-courses-view(@hso-junior; @hso-junior-hover);
+  }
+  body.coacollege_section & {
+    .specific-courses-view(@hso-coaching; @hso-coaching-hover);
   }
 
 }
@@ -151,13 +157,18 @@
   body.excollege_section & {
     .specific-anmelde-button(url(../images/ex_anmelden.png));
   }
-  body.lccollege_section & {
+  body.infcollege_section & {
     .specific-anmelde-button(url(../images/lc_anmelden.png));
   }
   body.langcollege_section & {
     .specific-anmelde-button(url(../images/lang_anmelden.png));
   }
-
+  body.juncollege_section & {
+    .specific-anmelde-button(url(../images/lang_anmelden.png));
+  }
+  body.coacollege_section & {
+    .specific-anmelde-button(url(../images/lang_anmelden.png));
+  }
 }
 
 
