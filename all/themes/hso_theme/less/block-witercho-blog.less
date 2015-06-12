@@ -41,7 +41,7 @@
     color: #fff;
     line-height: 20px;
     border-bottom: 1px solid #fff;
-    background: #e40421 url(../images/blog_icon.png) no-repeat 12px 18px;
+    background: @branding-bg url(../images/blog_icon.png) no-repeat 12px 18px;
   }
 
   .pane-title {
@@ -129,16 +129,28 @@ body.responsive-layout-mobile.front {
 
 #block-panels-mini-segment-blog {
   body.kvcollege_section & {
-    .specific-mini-segment-blog(@hso-kv-college; #e4edc4; url(../images/kv_blog.png); #c4d890);
+    .specific-mini-segment-blog(@hso-kv-college; @hso-kv-college; url(../images/kv_blog.png); lighten(@hso-kv-college, 15%));
   }
   body.hscollege_section & {
-    .specific-mini-segment-blog(@hso-handelsschule; #fae4d7; url(../images/hs_blog.png); #f3b793);
+    .specific-mini-segment-blog(@hso-handelsschule; @hso-handelsschule; url(../images/hs_blog.png); lighten(@hso-handelsschule, 15%));
   }
   body.kscollege_section & {
-    .specific-mini-segment-blog(@hso-kaderschule; #e6e4ef; url(../images/ks_blog.png); #b0aec6);
+    .specific-mini-segment-blog(@hso-kaderschule; @hso-kaderschule; url(../images/ks_blog.png); lighten(@hso-kaderschule, 15%));
   }
   body.excollege_section & {
-    .specific-mini-segment-blog(@hso-executive; #e7e5de; url(../images/ex_blog.png); #ccc7bd);
+    .specific-mini-segment-blog(@hso-executive; @hso-executive; url(../images/ex_blog.png); lighten(@hso-executive, 15%));
+  }
+  body.infcollege_section & {
+    .specific-mini-segment-blog(@hso-informatik; @hso-informatik; none; lighten(@hso-informatik, 15%));
+  }
+  body.langcollege_section & {
+    .specific-mini-segment-blog(@hso-sprachen; @hso-sprachen; none; lighten(@hso-sprachen, 15%));
+  }
+  body.juncollege_section & {
+    .specific-mini-segment-blog(@hso-junior; @hso-junior; none; lighten(@hso-junior, 15%));
+  }
+  body.coacollege_section & {
+    .specific-mini-segment-blog(@hso-coaching; @hso-coaching; none; lighten(@hso-coaching, 15%));
   }
 }
 
