@@ -4,13 +4,13 @@
 
 // Variables
 // -------------------------
-@small-column-width: 145px;
+@small-column-width: 115px;
 @small-column-width-wb: @small-column-width+1;
 
-@medium-column-width: 175px; //115px;
+@medium-column-width: 138px; //115px;
 @medium-column-width-wb: @medium-column-width+1;
 
-@column-width: 234px; // 155px;
+@column-width: 187px; // 155px;
 @column-width-with-border: @column-width+1;
 
 
@@ -22,9 +22,9 @@
   a {
     background-color: @seg-color;
 
-    span.arrow {
-      border-top-color: @seg-color;
-    }
+    //span.arrow {
+     // border-top-color: @seg-color;
+    //}
 
   }
 
@@ -33,9 +33,9 @@
   &:hover a {
     background-color: @seg-hover;
 
-    span.arrow {
-      border-top-color: @seg-hover;
-    }
+    //span.arrow {
+      //border-top-color: @seg-hover;
+    //}
   }
 
   ul.menu {
@@ -59,35 +59,42 @@
 
 // General settings
 // -------------------------
-// menu background
+// menu background (max 940px für HBS Banner)
+#zone-menu, #region-menu {
+  margin: 0;
+}
+
 #zone-menu-wrapper {
   position: relative;
-  background: @branding-bg;
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #fff important!;
 
   // specific menu background
   body.kvcollege_section & {
-    background: @hso-kv-college;
+    background: #fff;
   }
   body.hscollege_section & {
-    background: @hso-handelsschule;
+    background: #fff;
   }
   body.kscollege_section & {
-    background: @hso-kaderschule;
+    background: #fff;
   }
   body.excollege_section & {
-    background: @hso-executive;
+    background: #fff;
   }
   body.infcollege_section & {
-    background: @hso-informatik;
+    background: #fff;
   }
   body.langcollege_section & {
-    background: @hso-sprachen;
+    background: #fff;
   }
   body.juncollege_section & {
-    background: @hso-junior;
+    background: #fff;
   }
   body.coacollege_section & {
-    background: @hso-coaching;
+    background: #fff;
   }
 }
 
@@ -160,6 +167,7 @@
         line-height: 40px;
         height: 40px;
         padding: 0 20px;
+        border-right: 3px solid #fff;
         background: url(../images/menu_arrow.png) no-repeat 113px 19px;
       }
 

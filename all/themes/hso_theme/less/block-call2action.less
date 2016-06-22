@@ -33,6 +33,31 @@
 // -------------------------
 // no display in main content on desktop
 #block-system-main {
+  margin-top: -10px;
+
+  .pane-node, .pane-block {
+    background: linear-gradient(#3b3b3b, #ffffff);
+    padding: 10px 25px;
+    margin-bottom: 35px;
+
+    h2, h3 {
+      color: #fff;
+    }
+
+    // Bullet styling versuch...
+
+    ul {
+      list-style-type: disc;
+      font-size: 20px;
+      color: @branding-bg;
+    }
+
+    span {
+      color: #000 important!;
+      font-size: 15px;
+    }
+  }
+
   .define-call2action();
 
   a.call2action.broschuere_bestellen,
