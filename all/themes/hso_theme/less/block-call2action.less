@@ -26,6 +26,14 @@
   a.call2action.startdaten_suchen {
     background-image: url(../images/button_startdaten.png);
   }
+  /* Downloadbereich */
+  a.call2action.download {
+    background-image: url(../images/button_download.png);
+  }
+  /* Lernunterstützung */
+  a.call2action.lernen {
+    background-image: url(../images/button_lernen.png);
+  }
 }
 
 
@@ -61,7 +69,9 @@
   .define-call2action();
 
   a.call2action.broschuere_bestellen,
-  a.call2action.startdaten_suchen {
+  a.call2action.startdaten_suchen
+  a.call2action.download
+  a.call2action.lernen {
     margin-right: 6px;
   }
 
@@ -73,16 +83,16 @@
     background-position: 0 -136px;
   }
   body.kscollege_section & a.call2action {
-    background-position: 0 -204px;
+    background-position: 0 -276px;
   }
   body.excollege_section & a.call2action {
     background-position: 0 -272px;
   }
   body.langcollege_section & a.call2action {
-    background-position: 0 -340px;
+    background-position: 0 -136px;
   }
   body.lccollege_section & a.call2action {
-    background-position: 0 -408px;
+    background-position: 0 -276px;
   }
 
   @media @narrow {
@@ -108,16 +118,16 @@
       background-position: 0 -136px;
     }
     body.kscollege_section & a.call2action {
-      background-position: 0 -204px;
+      background-position: 0 -276px;
     }
     body.excollege_section & a.call2action {
       background-position: 0 -272px;
     }
     body.langcollege_section & a.call2action {
-      background-position: 0 -340px;
+      background-position: 0 -136px;
     }
     body.lccollege_section & a.call2action {
-      background-position: 0 -408px;
+      background-position: 0 -276px;
     }
 
   }

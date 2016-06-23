@@ -3402,6 +3402,8 @@ article.comment footer .author {
   /* Bildungsberatung */
   /* Broschüre bestellen */
   /* Stardaten suchen */
+  /* Downloadbereich */
+  /* Lernunterstützung */
   /* extract correct button color from image strip */
 }
 #block-system-main .pane-node,
@@ -3441,8 +3443,14 @@ article.comment footer .author {
 #block-system-main a.call2action.startdaten_suchen {
   background-image: url(../images/button_startdaten.png);
 }
+#block-system-main a.call2action.download {
+  background-image: url(../images/button_download.png);
+}
+#block-system-main a.call2action.lernen {
+  background-image: url(../images/button_lernen.png);
+}
 #block-system-main a.call2action.broschuere_bestellen,
-#block-system-main a.call2action.startdaten_suchen {
+#block-system-main a.call2action.startdaten_suchen a.call2action.download a.call2action.lernen {
   margin-right: 6px;
 }
 body.kvcollege_section #block-system-main a.call2action {
@@ -3452,16 +3460,16 @@ body.hscollege_section #block-system-main a.call2action {
   background-position: 0 -136px;
 }
 body.kscollege_section #block-system-main a.call2action {
-  background-position: 0 -204px;
+  background-position: 0 -276px;
 }
 body.excollege_section #block-system-main a.call2action {
   background-position: 0 -272px;
 }
 body.langcollege_section #block-system-main a.call2action {
-  background-position: 0 -340px;
+  background-position: 0 -136px;
 }
 body.lccollege_section #block-system-main a.call2action {
-  background-position: 0 -408px;
+  background-position: 0 -276px;
 }
 @media all and (min-width: 740px) and (min-device-width: 740px), (max-device-width: 800px) and (min-width: 740px) and (orientation:landscape) {
   #block-system-main a.call2action {
@@ -3476,6 +3484,8 @@ body.lccollege_section #block-system-main a.call2action {
     /* Bildungsberatung */
     /* Broschüre bestellen */
     /* Stardaten suchen */
+    /* Downloadbereich */
+    /* Lernunterstützung */
     /* extract correct button color from image strip */
   }
   #region-sidebar-second a.call2action {
@@ -3492,6 +3502,12 @@ body.lccollege_section #block-system-main a.call2action {
   #region-sidebar-second a.call2action.startdaten_suchen {
     background-image: url(../images/button_startdaten.png);
   }
+  #region-sidebar-second a.call2action.download {
+    background-image: url(../images/button_download.png);
+  }
+  #region-sidebar-second a.call2action.lernen {
+    background-image: url(../images/button_lernen.png);
+  }
   body.kvcollege_section #region-sidebar-second a.call2action {
     background-position: 0 -68px;
   }
@@ -3499,16 +3515,16 @@ body.lccollege_section #block-system-main a.call2action {
     background-position: 0 -136px;
   }
   body.kscollege_section #region-sidebar-second a.call2action {
-    background-position: 0 -204px;
+    background-position: 0 -276px;
   }
   body.excollege_section #region-sidebar-second a.call2action {
     background-position: 0 -272px;
   }
   body.langcollege_section #region-sidebar-second a.call2action {
-    background-position: 0 -340px;
+    background-position: 0 -136px;
   }
   body.lccollege_section #region-sidebar-second a.call2action {
-    background-position: 0 -408px;
+    background-position: 0 -276px;
   }
 }
 /*
